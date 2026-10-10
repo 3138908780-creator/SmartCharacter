@@ -1,0 +1,4 @@
+-r requirements.txt
+# CPU YuNet; pin reviewed before installation/release.
+opencv-python-headless==4.13.0.92
+numpy==2.2.6

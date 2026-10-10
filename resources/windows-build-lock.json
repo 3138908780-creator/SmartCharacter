@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "buildHost": "darwin-arm64",
+  "tools": {
+    "zig": {
+      "file": "zig-aarch64-macos-0.15.2.tar.xz",
+      "url": "https://ziglang.org/download/0.15.2/zig-aarch64-macos-0.15.2.tar.xz",
+      "sha256": "3cc2bab367e185cdfb27501c4b30b1b0653c28d9f73df8dc91488e66ece5fa6b",
+      "version": "0.15.2",
+      "license": "MIT plus bundled original notices"
+    },
+    "cmake": {
+      "file": "cmake-4.4.4-macos-universal.tar.gz",
+      "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-macos-universal.tar.gz",
+      "sha256": "4b7b73704b1db9b374e5c9ab8e17ac6148b817b6396ee75cd94a852cbac9d305",
+      "version": "4.4.4",
+      "license": "BSD-3-Clause; build tool only"
+    }
+  }
+}

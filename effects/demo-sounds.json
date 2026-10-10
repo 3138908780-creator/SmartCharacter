@@ -1,0 +1,178 @@
+{
+  "source": "音效与字体表.xlsx · 2026-09-20 已验收组合同步",
+  "sounds": {
+    "center-cut": [
+      "唰"
+    ],
+    "gold-underline": [
+      "页面切换",
+      "在纸上一笔划过的声音"
+    ],
+    "dual-focus": [
+      "滴，提示音*2"
+    ],
+    "multi-focus": [
+      "唰"
+    ],
+    "amber-wipe": [
+      "拉链"
+    ],
+    "gold-takeover": [
+      "键盘打字长音",
+      "卡通"
+    ],
+    "keyword-rail": [
+      "啵1"
+    ],
+    "fold-pop-focus": [
+      "唰",
+      "卡通弹跳音2"
+    ],
+    "stagger-reveal": [
+      "撕开包装纸"
+    ],
+    "opposed-reveal": [
+      "唰",
+      "啵1"
+    ],
+    "bilateral-bloom": [
+      "嗖嗖",
+      "叮咚提示音1"
+    ],
+    "progressive-pair": [
+      "弹出"
+    ],
+    "smear-backdrop": [
+      "打字声",
+      "唰"
+    ],
+    "question-divider": [
+      "点击",
+      "ui界面"
+    ],
+    "typed-rise": [
+      "打字声",
+      "弹出"
+    ],
+    "flank-glitch": [
+      "唰"
+    ],
+    "echo-focus": [
+      "打字声",
+      "唰"
+    ],
+    "headline-tag": [
+      "点击"
+    ],
+    "hook-overwrite": [
+      "唰",
+      "卡通"
+    ],
+    "scatter-core": [
+      "综艺吹风",
+      "iphone锁屏声*2"
+    ],
+    "evidence-converge": [
+      "盖章",
+      "点击"
+    ],
+    "reference-sticky-board": [
+      "卡翻转",
+      "书本翻书声"
+    ],
+    "reference-split-glow": [
+      "gatehit",
+      "PPT转场"
+    ],
+    "reference-inhale-overlay": [
+      "综艺照相咔嚓",
+      "风铃魔法转场"
+    ],
+    "reference-lead-flip": [
+      "呼",
+      "仙尘音效"
+    ],
+    "reference-lead-fold": [
+      "呼的转场音效",
+      "报纸报纸"
+    ],
+    "reference-lead-laser": [
+      "呼的转场音效",
+      "报纸报纸"
+    ],
+    "study-roll-overlay": [
+      "胶片滚动声",
+      "魔法风铃"
+    ],
+    "study-tail-gradient": [
+      "鼠标单击",
+      "风声转场"
+    ],
+    "study-question-diagonal": [
+      "鼠标点击",
+      "诡异的滴水声"
+    ],
+    "study-drop-push": [
+      "翻页翻书",
+      "铅笔画7"
+    ],
+    "study-type-vault": [
+      "键盘打字（快）",
+      "科技点击"
+    ],
+    "study-ice-split": [
+      "仙尘音效",
+      "旋风"
+    ],
+    "study-number-inhale": [
+      "胶片滚动声",
+      "诡异的滴水声"
+    ],
+    "preview-tail-corner": [
+      "回忆-刷一下",
+      "诡异的滴水声"
+    ],
+    "preview-tail-corner-question": [
+      "回忆-刷一下",
+      "诡异的滴水声"
+    ],
+    "preview-opening-gap": [
+      "闪入转场",
+      "撕纸声"
+    ],
+    "preview-opening-gap-reverse": [
+      "闪入转场",
+      "撕纸声"
+    ],
+    "preview-bilingual-plates": [
+      "唰",
+      "Swish"
+    ],
+    "preview-blur-stack": [
+      "镜头划动",
+      "亮一下"
+    ],
+    "preview-growing-pair": [
+      "啵2",
+      "嘟咚",
+      "叮"
+    ],
+    "preview-tail-replace": [
+      "综艺嗖咻唰",
+      "磁带撕裂",
+      "咀嚼声"
+    ],
+    "preview-fold-pair": [
+      "科技点击",
+      "tick×2"
+    ],
+    "preview-roll-banner": [
+      "发条旋钮转动",
+      "报纸折叠或展开"
+    ],
+    "preview-roll-banner-reverse": [
+      "发条旋钮转动",
+      "报纸折叠或展开"
+    ]
+  }
+}

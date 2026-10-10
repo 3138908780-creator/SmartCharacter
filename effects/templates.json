@@ -1,0 +1,3816 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "id": "center-cut",
+      "label": "中间切入",
+      "description": "普通文字展开，重点词从中间切入",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Sans"
+      },
+      "container": {
+        "type": "panel",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "inline",
+        "gap": 7
+      },
+      "normal": {
+        "size": 68,
+        "color": "#ffffff",
+        "weight": 600,
+        "motion": {
+          "type": "tracking-fade",
+          "durationMs": 650,
+          "fromLetterSpacing": -16
+        }
+      },
+      "focus": {
+        "size": 92,
+        "weight": 800,
+        "motion": {
+          "type": "scale",
+          "durationMs": 160,
+          "fromScale": 0.4,
+          "fromX": 0
+        }
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "recommendation": {
+        "baseScore": -900
+      }
+    },
+    {
+      "id": "gold-underline",
+      "label": "金线强调",
+      "description": "宋体三层排版，金色重点词放大揭开并划线",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "stack",
+        "gap": 8
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 700,
+        "motion": {
+          "type": "fade-rise",
+          "durationMs": 240,
+          "fromY": 24
+        }
+      },
+      "focus": {
+        "size": 96,
+        "weight": 900,
+        "motion": {
+          "type": "mask-scale",
+          "durationMs": 420,
+          "fromScale": 0.82,
+          "fromX": -72
+        }
+      },
+      "decoration": {
+        "type": "underline",
+        "thickness": 3,
+        "startProgress": 0.28,
+        "colorMode": "accent"
+      },
+      "recommendation": {
+        "preferredPositions": [
+          "middle"
+        ],
+        "avoidedPositions": [
+          "start"
+        ]
+      }
+    },
+    {
+      "id": "dual-focus",
+      "label": "双重点依次出现",
+      "description": "两个重点词按照声音顺序依次强调",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Sans"
+      },
+      "container": {
+        "type": "panel",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "inline",
+        "gap": 7
+      },
+      "normal": {
+        "size": 68,
+        "color": "#ffffff",
+        "weight": 600,
+        "motion": {
+          "type": "tracking-fade",
+          "durationMs": 650,
+          "fromLetterSpacing": -16
+        }
+      },
+      "focus": {
+        "size": 92,
+        "weight": 800,
+        "motion": {
+          "type": "scale",
+          "durationMs": 160,
+          "fromScale": 0.4,
+          "fromX": 0
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "multi-focus",
+      "label": "多重点通用",
+      "description": "三个及以上重点词按照声音顺序依次强调",
+      "compatibility": {
+        "minKeywords": 3,
+        "maxKeywords": 99
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Sans"
+      },
+      "container": {
+        "type": "panel",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "inline",
+        "gap": 7
+      },
+      "normal": {
+        "size": 68,
+        "color": "#ffffff",
+        "weight": 600,
+        "motion": {
+          "type": "tracking-fade",
+          "durationMs": 650,
+          "fromLetterSpacing": -16
+        }
+      },
+      "focus": {
+        "size": 92,
+        "weight": 800,
+        "motion": {
+          "type": "scale",
+          "durationMs": 160,
+          "fromScale": 0.4,
+          "fromX": 0
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "amber-wipe",
+      "label": "橙块擦入",
+      "description": "宋体横排，橙色底块从左擦亮重点词",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6a000"
+      },
+      "editable": [
+        "position",
+        "scale"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "inline",
+        "gap": 0
+      },
+      "normal": {
+        "size": 112,
+        "color": "#ffffff",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "tracking-fade",
+          "durationMs": 260,
+          "fromLetterSpacing": 0
+        }
+      },
+      "focus": {
+        "size": 112,
+        "color": "#ffffff",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "background": {
+          "type": "wipe",
+          "fill": "#f6a000",
+          "paddingX": 7,
+          "paddingY": 5
+        },
+        "motion": {
+          "type": "block-wipe",
+          "durationMs": 360,
+          "fromScale": 1,
+          "fromX": 0
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "gold-takeover",
+      "label": "切字突显",
+      "description": "整句被重点词从字身中线切开并向两侧退出",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "takeover",
+        "gap": 0
+      },
+      "normal": {
+        "size": 108,
+        "color": "#ffffff",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "word-reveal",
+          "durationMs": 720
+        }
+      },
+      "focus": {
+        "size": 148,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "slice-expand",
+          "durationMs": 680,
+          "fromScale": 0.06,
+          "fromX": 0
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "keyword-rail",
+      "label": "横滑点亮",
+      "description": "二至四个短重点词横向滑入，并随语音依次点亮",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 4,
+        "maxKeywordLength": 3
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 18
+        },
+        "secondaryAccentColor": "#e85d3f"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "keyword-rail",
+        "gap": 28
+      },
+      "normal": {
+        "size": 82,
+        "color": "#ffffff",
+        "weight": 800,
+        "motion": {
+          "type": "slide-through",
+          "durationMs": 220,
+          "fromX": 560,
+          "exitDurationMs": 190,
+          "exitX": -560
+        }
+      },
+      "focus": {
+        "size": 82,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 100,
+          "fromScale": 1
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "fold-pop-focus",
+      "label": "折叠弹入",
+      "description": "基础字对角弹开，随后折回并由重点词居中放大接管",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "fold-takeover",
+        "gap": 34,
+        "slots": [
+          {
+            "x": -112,
+            "y": -90
+          },
+          {
+            "x": 112,
+            "y": 90
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "normal": {
+        "size": 112,
+        "color": "#eeeeeb",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "fold-pop",
+          "durationMs": 360,
+          "trigger": "cue",
+          "fromScale": 0.12,
+          "overshoot": 1.1
+        }
+      },
+      "focus": {
+        "size": 176,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "fold-pop",
+          "durationMs": 300,
+          "trigger": "voice",
+          "fromScale": 0.16,
+          "overshoot": 1.13
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "stagger-reveal",
+      "label": "错层露出",
+      "description": "中央基础字先缩小落位，两个重点词在左上和右下向上露出",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        },
+        "secondaryAccentColor": "#e85d3f"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "surround",
+        "gap": 22,
+        "slots": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": -180,
+            "y": -140
+          },
+          {
+            "x": 170,
+            "y": 140
+          }
+        ]
+      },
+      "normal": {
+        "size": 78,
+        "color": "#eeeeeb",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "scale",
+          "durationMs": 360,
+          "trigger": "cue",
+          "fromScale": 1.5
+        }
+      },
+      "focus": {
+        "size": 92,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "rise-reveal",
+          "durationMs": 250,
+          "trigger": "voice",
+          "fromY": 34
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "opposed-reveal",
+      "label": "双向露出",
+      "description": "基础字从左侧、重点词从右侧相向露出，并在结尾反向离场",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "opposed",
+        "gap": 18,
+        "slots": [
+          {
+            "x": -230,
+            "y": -105
+          },
+          {
+            "x": 125,
+            "y": 105
+          }
+        ]
+      },
+      "normal": {
+        "size": 104,
+        "color": "#eeeeeb",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "side-reveal",
+          "durationMs": 300,
+          "trigger": "cue",
+          "fromX": -520,
+          "exitDurationMs": 260,
+          "exitX": -520
+        }
+      },
+      "focus": {
+        "size": 112,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "side-reveal",
+          "durationMs": 300,
+          "trigger": "voice",
+          "fromX": 560,
+          "exitDurationMs": 260,
+          "exitX": 560
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "bilateral-bloom",
+      "label": "双侧聚焦",
+      "description": "基础字从左右两侧柔焦拼入，重点词随后从中间放大回弹",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "bilateral-center",
+        "gap": 18,
+        "slots": [
+          {
+            "x": -150,
+            "y": -92
+          },
+          {
+            "x": 150,
+            "y": 92
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      "normal": {
+        "size": 90,
+        "color": "#eeeeeb",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "bilateral-fade",
+          "durationMs": 320,
+          "trigger": "cue",
+          "fromX": 118,
+          "fromBlur": 8
+        }
+      },
+      "focus": {
+        "size": 106,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "center-bloom",
+          "durationMs": 300,
+          "trigger": "voice",
+          "fromScale": 0.28,
+          "fromBlur": 12,
+          "overshoot": 1.08
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "progressive-pair",
+      "label": "递进叠现",
+      "description": "基础短句先落位，两个重点词按语音顺序叠入，第二词放大并换暖色",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "progressive-stack",
+        "gap": 16,
+        "lastFocusScale": 1.55,
+        "slots": [
+          {
+            "x": -156,
+            "y": -62
+          },
+          {
+            "x": 92,
+            "y": -62
+          },
+          {
+            "x": 104,
+            "y": 86
+          }
+        ]
+      },
+      "normal": {
+        "size": 72,
+        "color": "#eeeeeb",
+        "weight": 700,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "tracking-scale",
+          "durationMs": 280,
+          "trigger": "cue",
+          "fromScale": 0.72,
+          "fromLetterSpacing": -10,
+          "fromBlur": 5
+        }
+      },
+      "focus": {
+        "size": 84,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "staged-bloom",
+          "durationMs": 340,
+          "trigger": "voice",
+          "fromScale": 0.42,
+          "fromY": 24,
+          "fromBlur": 12,
+          "overshoot": 1.06,
+          "trailCopies": 2,
+          "trailOffsetY": 18
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "smear-backdrop",
+      "label": "叠字扫光",
+      "description": "大号重点词拖影落位，基础字由亮带横扫叠入前景",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "backdrop-overlay",
+        "gap": 0,
+        "slots": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 16
+          }
+        ]
+      },
+      "normal": {
+        "size": 72,
+        "color": "#eeeeeb",
+        "weight": 700,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "sweep-reveal",
+          "durationMs": 360,
+          "trigger": "cue",
+          "delayMs": 430,
+          "fromX": -140,
+          "fromBlur": 8
+        }
+      },
+      "focus": {
+        "size": 180,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 5,
+          "blur": 12,
+          "color": "#000000",
+          "opacity": 55
+        },
+        "motion": {
+          "type": "smear-settle",
+          "durationMs": 420,
+          "trigger": "cue",
+          "fromX": 110,
+          "fromScale": 1.38,
+          "fromBlur": 16,
+          "fromRotate": -8
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "question-divider",
+      "label": "问号分割",
+      "description": "两个重点词从对角错向进入，中间问号弹出形成冲突感",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "question-split",
+        "gap": 18,
+        "slots": [
+          {
+            "x": -150,
+            "y": -70
+          },
+          {
+            "x": 150,
+            "y": 70
+          },
+          {
+            "x": 0,
+            "y": 10
+          }
+        ]
+      },
+      "normal": {
+        "size": 42,
+        "color": "#929292",
+        "weight": 500,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 8,
+          "color": "#000000",
+          "opacity": 45
+        },
+        "motion": {
+          "type": "sweep-reveal",
+          "durationMs": 260,
+          "trigger": "cue",
+          "fromX": -90,
+          "fromBlur": 4
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "corner-slide",
+          "durationMs": 300,
+          "trigger": "cue",
+          "fromX": 90,
+          "fromY": 54,
+          "fromBlur": 5
+        }
+      },
+      "decoration": {
+        "type": "punctuation",
+        "text": "?",
+        "size": 182,
+        "colorMode": "secondary"
+      }
+    },
+    {
+      "id": "typed-rise",
+      "label": "打字上托",
+      "description": "基础字带光标逐字建立，重点词从下方带残影上托",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 10,
+        "lineOrder": "normal-focus",
+        "align": "left",
+        "slots": [
+          {
+            "x": -24,
+            "y": -52
+          },
+          {
+            "x": -24,
+            "y": 54
+          }
+        ]
+      },
+      "normal": {
+        "size": 82,
+        "color": "#ffffff",
+        "weight": 800,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "type-cursor",
+          "durationMs": 600,
+          "trigger": "cue"
+        }
+      },
+      "focus": {
+        "size": 122,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "ghost-rise",
+          "durationMs": 360,
+          "trigger": "voice",
+          "fromY": 46,
+          "fromBlur": 8,
+          "trailCopies": 3,
+          "trailOffsetY": 14
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "flank-glitch",
+      "label": "两侧闪现",
+      "description": "基础字由水平亮带建立，两个重点词从左右纵向碎裂聚合",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        },
+        "secondaryAccentColor": "#e85d3f"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "flank-center",
+        "gap": 12,
+        "slots": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": -176,
+            "y": 0
+          },
+          {
+            "x": 176,
+            "y": 0
+          }
+        ]
+      },
+      "normal": {
+        "size": 66,
+        "color": "#eeeeeb",
+        "weight": 700,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "sweep-reveal",
+          "durationMs": 360,
+          "trigger": "cue",
+          "fromX": -180,
+          "fromBlur": 10
+        }
+      },
+      "focus": {
+        "size": 154,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "vertical-glitch",
+          "durationMs": 340,
+          "trigger": "voice",
+          "fromY": -64,
+          "fromBlur": 8,
+          "trailCopies": 4
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "echo-focus",
+      "label": "灰影托底",
+      "description": "正文横排建立，放大的重点词灰色残影随后从下方升起",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "echo-focus",
+        "gap": 0,
+        "echoScale": 2.25,
+        "slots": [
+          {
+            "x": 0,
+            "y": -10
+          },
+          {
+            "x": 0,
+            "y": 62
+          }
+        ]
+      },
+      "normal": {
+        "size": 76,
+        "color": "#eeeeeb",
+        "weight": 600,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "sweep-reveal",
+          "durationMs": 380,
+          "trigger": "cue",
+          "fromX": -100,
+          "fromBlur": 5
+        }
+      },
+      "focus": {
+        "size": 78,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "echo-rise",
+          "durationMs": 360,
+          "trigger": "voice",
+          "fromY": 90,
+          "fromScale": 0.72,
+          "fromBlur": 7
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "headline-tag",
+      "label": "标题标签",
+      "description": "重点词由大到小聚焦成标题，下方深色标签展开并逐字显示基础字",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "tagged-stack",
+        "gap": 10,
+        "slots": [
+          {
+            "x": 0,
+            "y": -52
+          },
+          {
+            "x": 0,
+            "y": 58
+          }
+        ]
+      },
+      "normal": {
+        "size": 56,
+        "color": "#ffffff",
+        "weight": 600,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 8,
+          "color": "#000000",
+          "opacity": 45
+        },
+        "motion": {
+          "type": "tag-expand",
+          "durationMs": 620,
+          "trigger": "cue",
+          "delayMs": 280
+        }
+      },
+      "focus": {
+        "size": 124,
+        "weight": 700,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "smear-settle",
+          "durationMs": 360,
+          "trigger": "cue",
+          "fromScale": 1.65,
+          "fromBlur": 10
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "hook-overwrite",
+      "label": "悬念覆写",
+      "description": "蓝白开篇先落位并脉冲确认，红色悬念词随后从纵向切片聚合到前景",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "progressive-stack",
+        "gap": 8,
+        "lastFocusScale": 1.12,
+        "slots": [
+          {
+            "x": 0,
+            "y": -52
+          },
+          {
+            "x": 0,
+            "y": -52
+          },
+          {
+            "x": 0,
+            "y": 56
+          }
+        ]
+      },
+      "normal": {
+        "size": 104,
+        "color": "#eeeeeb",
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "pulse-settle",
+          "durationMs": 620,
+          "trigger": "cue",
+          "fromY": -54,
+          "fromBlur": 6,
+          "dipScale": 0.08,
+          "dipAt": 0.62
+        }
+      },
+      "focus": {
+        "size": 104,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "vertical-glitch",
+          "durationMs": 300,
+          "trigger": "voice",
+          "fromScale": 0.08,
+          "fromY": 30,
+          "fromBlur": 7,
+          "overshoot": 1.05,
+          "trailCopies": 3
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "scatter-core",
+      "label": "核心冲击",
+      "description": "首行逐字从四周旋转归位，红色核心词随后放大弹出并产生横向冲击残影",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "progressive-stack",
+        "gap": 8,
+        "lastFocusScale": 1.18,
+        "slots": [
+          {
+            "x": 0,
+            "y": -50
+          },
+          {
+            "x": 0,
+            "y": -50
+          },
+          {
+            "x": 0,
+            "y": 60
+          }
+        ]
+      },
+      "normal": {
+        "size": 100,
+        "color": "#eeeeeb",
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "scatter-settle",
+          "durationMs": 430,
+          "trigger": "cue",
+          "fromX": 92,
+          "fromY": 70,
+          "fromRotate": 32,
+          "staggerMs": 34,
+          "overshoot": 1.04
+        }
+      },
+      "focus": {
+        "size": 104,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "impact-bloom",
+          "durationMs": 300,
+          "trigger": "voice",
+          "fromScale": 0.16,
+          "fromBlur": 8,
+          "overshoot": 1.12,
+          "trailCopies": 3,
+          "trailOffsetX": 52
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "evidence-converge",
+      "label": "数据收束",
+      "description": "基础词落位后缩点回弹，金色重点词由上下多层模糊副本合拢成形",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "position": {
+          "x": 50,
+          "y": 48
+        }
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 8,
+        "lineOrder": "normal-focus",
+        "align": "center",
+        "slots": [
+          {
+            "x": 0,
+            "y": -50
+          },
+          {
+            "x": 0,
+            "y": 60
+          }
+        ]
+      },
+      "normal": {
+        "size": 96,
+        "color": "#eeeeeb",
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "pulse-settle",
+          "durationMs": 620,
+          "trigger": "cue",
+          "fromY": -50,
+          "fromBlur": 6,
+          "dipScale": 0.08,
+          "dipAt": 0.62
+        }
+      },
+      "focus": {
+        "size": 108,
+        "weight": 900,
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 50
+        },
+        "motion": {
+          "type": "converge-echo",
+          "durationMs": 360,
+          "trigger": "voice",
+          "fromScale": 0.72,
+          "fromBlur": 10,
+          "overshoot": 1.06,
+          "trailCopies": 3,
+          "trailOffsetY": 54
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "reference-sticky-board",
+      "label": "大字贴签",
+      "description": "句首重点词放大作为背景板；正文从两侧旋转贴入并缩小，重点色同步变浅。",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "start",
+        "minKeywordLength": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "keyword-backboard",
+        "gap": 38
+      },
+      "normal": {
+        "size": 68,
+        "color": "#FFFFFF",
+        "weight": 400,
+        "motion": {
+          "type": "sticky-in",
+          "durationMs": 520,
+          "delayMs": 320,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Douyin Sans",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "focus": {
+        "size": 210,
+        "weight": 400,
+        "motion": {
+          "type": "horizontal-flip",
+          "durationMs": 260,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Source Han Serif Heavy",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "reference-split-glow",
+      "label": "双字让位",
+      "description": "句首两个重点字向两边展开，快速模糊发光；正文向右缓入，前半在重点字下、后半在上。",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "start",
+        "minKeywordLength": 2,
+        "maxKeywordLength": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "split-keyword",
+        "gap": 38
+      },
+      "normal": {
+        "size": 64,
+        "color": "#FFFFFF",
+        "weight": 400,
+        "motion": {
+          "type": "slide-through",
+          "durationMs": 700,
+          "delayMs": 320,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Source Han Serif Heavy",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "focus": {
+        "size": 160,
+        "weight": 400,
+        "motion": {
+          "type": "blur-glow",
+          "durationMs": 180,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Douyin Sans",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "reference-inhale-overlay",
+      "label": "吸入叠心",
+      "description": "句首 2～4 字重点词吸入聚合；正文由外向内收拢，叠在大字上层。",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "start",
+        "minKeywordLength": 2,
+        "maxKeywordLength": 4
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "keyword-overlay",
+        "gap": 38
+      },
+      "normal": {
+        "size": 86,
+        "color": "#FFFFFF",
+        "weight": 400,
+        "motion": {
+          "type": "inward-gather",
+          "durationMs": 400,
+          "delayMs": 320,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Source Han Serif Heavy",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "focus": {
+        "size": 156,
+        "weight": 400,
+        "motion": {
+          "type": "inhale",
+          "durationMs": 260,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Douyin Sans",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "reference-lead-flip",
+      "label": "翻页领句",
+      "description": "句首不超过 2 字的大字向左露出，右侧正文向右露出并水平翻转展开。",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "start",
+        "minKeywordLength": 1,
+        "maxKeywordLength": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "headline-lead",
+        "gap": 38
+      },
+      "normal": {
+        "size": 62,
+        "color": "#FFFFFF",
+        "weight": 400,
+        "motion": {
+          "type": "horizontal-flip",
+          "durationMs": 420,
+          "delayMs": 320,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Source Han Serif Heavy",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "focus": {
+        "size": 150,
+        "weight": 400,
+        "motion": {
+          "type": "left-reveal-dissolve",
+          "durationMs": 240,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Douyin Sans",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "reference-lead-fold",
+      "label": "折页领句",
+      "description": "句首不超过 2 字的大字向左露出，右侧正文折页展开，收尾折合。",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "start",
+        "minKeywordLength": 1,
+        "maxKeywordLength": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "headline-lead",
+        "gap": 38
+      },
+      "normal": {
+        "size": 62,
+        "color": "#FFFFFF",
+        "weight": 400,
+        "motion": {
+          "type": "page-fold",
+          "durationMs": 440,
+          "delayMs": 320,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Source Han Serif Heavy",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "focus": {
+        "size": 150,
+        "weight": 400,
+        "motion": {
+          "type": "left-reveal-dissolve",
+          "durationMs": 240,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Douyin Sans",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "reference-lead-laser",
+      "label": "光刻领句",
+      "description": "句首不超过 2 字的大字向左露出；正文由扫描光逐步刻出，收尾向左解散。",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "start",
+        "minKeywordLength": 1,
+        "maxKeywordLength": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#111210",
+        "opacity": 78,
+        "borderColor": "#ffffff",
+        "borderOpacity": 70,
+        "radius": 14,
+        "paddingX": 30,
+        "paddingY": 21,
+        "minWidthPercent": 72
+      },
+      "layout": {
+        "type": "headline-lead",
+        "gap": 38
+      },
+      "normal": {
+        "size": 62,
+        "color": "#FFFFFF",
+        "weight": 400,
+        "motion": {
+          "type": "laser-engrave",
+          "durationMs": 530,
+          "delayMs": 320,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Source Han Serif Heavy",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "focus": {
+        "size": 150,
+        "weight": 400,
+        "motion": {
+          "type": "left-reveal-dissolve",
+          "durationMs": 240,
+          "trigger": "voice"
+        },
+        "fontFamily": "SC Douyin Sans",
+        "shadow": {
+          "offsetX": 2,
+          "offsetY": 6,
+          "blur": 10,
+          "color": "#000000",
+          "opacity": 60
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "study-roll-overlay",
+      "label": "滚字叠映",
+      "description": "句首重点 1–4 字，基础字数多于重点；整句 10 字及以上优先。纵向滚字，正文从右向左流畅逐字叠入。",
+      "choreography": "roll-overlay",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "start",
+        "minKeywordLength": 1,
+        "maxKeywordLength": 4,
+        "bodyLongerThanKeyword": true
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "backdrop-overlay",
+        "gap": 14
+      },
+      "normal": {
+        "size": 54,
+        "color": "#EEEEEB",
+        "weight": 900,
+        "motion": {
+          "type": "word-reveal",
+          "durationMs": 650,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 73.44,
+        "weight": 900,
+        "motion": {
+          "type": "cyclic-vertical-roll",
+          "durationMs": 600,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "recommendation": {
+        "minSentenceLength": 10
+      }
+    },
+    {
+      "id": "study-tail-gradient",
+      "label": "渐隐双行",
+      "description": "句尾重点上下排版；正文缩小入场、左实右淡，下方重点更大。",
+      "choreography": "tail-gradient",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "end"
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 53,
+        "color": "#EEEEEB",
+        "weight": 900,
+        "motion": {
+          "type": "gradient-shrink",
+          "durationMs": 650,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 79,
+        "weight": 900,
+        "motion": {
+          "type": "side-reveal",
+          "durationMs": 600,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "recommendation": {
+        "minSentenceLength": 10
+      }
+    },
+    {
+      "id": "study-question-diagonal",
+      "label": "对角问句",
+      "description": "短问句或选择疑问句；可选完整问句，或只选两个选项；粗方问号、无标点英文与紧凑宽幅构图。",
+      "choreography": "question-diagonal",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 2,
+        "contentRule": "question"
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "question-split",
+        "gap": 14
+      },
+      "normal": {
+        "size": 61,
+        "color": "#EEEEEB",
+        "weight": 900,
+        "motion": {
+          "type": "inward-gather",
+          "durationMs": 650,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 61,
+        "weight": 900,
+        "motion": {
+          "type": "center-bloom",
+          "durationMs": 600,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "study-drop-push",
+      "label": "落字轻推",
+      "description": "句尾重点；正文从中心扩散，同字号重点下落，轻推正文。",
+      "choreography": "drop-push",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "end"
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 50,
+        "color": "#EEEEEB",
+        "weight": 900,
+        "motion": {
+          "type": "center-spread",
+          "durationMs": 650,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 50,
+        "weight": 900,
+        "motion": {
+          "type": "drop-push",
+          "durationMs": 600,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "recommendation": {
+        "minSentenceLength": 10,
+        "evenSentenceLength": true
+      }
+    },
+    {
+      "id": "study-type-vault",
+      "label": "打字跃升",
+      "description": "句尾重点；正文打字，重点向前向上跃进、顶起正文，两行等宽。",
+      "choreography": "type-vault",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "end",
+        "contentRule": "equal-width"
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 50,
+        "color": "#EEEEEB",
+        "weight": 900,
+        "motion": {
+          "type": "type-cursor",
+          "durationMs": 650,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 72,
+        "weight": 900,
+        "motion": {
+          "type": "vault-lift",
+          "durationMs": 600,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "study-ice-split",
+      "label": "冰闪双落",
+      "description": "句尾双字；正文原位渐显，两侧重点向下溶入，最后呈现完整字形。",
+      "choreography": "ice-split",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "end",
+        "minKeywordLength": 2,
+        "maxKeywordLength": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "flank-center",
+        "gap": 14
+      },
+      "normal": {
+        "size": 48,
+        "color": "#EEEEEB",
+        "weight": 900,
+        "motion": {
+          "type": "fade-rise",
+          "durationMs": 650,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 104,
+        "weight": 900,
+        "motion": {
+          "type": "vertical-strip-dissolve",
+          "durationMs": 600,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "decoration": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "study-number-inhale",
+      "label": "数字吸入",
+      "description": "双重点：首个为数字、第二个在句尾；数字滚动，浅色大字吸入压底。",
+      "choreography": "number-inhale",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2,
+        "keywordPosition": "end",
+        "contentRule": "numeric-pair"
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a",
+        "secondaryAccentColor": "#e85d3f"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "backdrop-overlay",
+        "gap": 14
+      },
+      "normal": {
+        "size": 48,
+        "color": "#EEEEEB",
+        "weight": 900,
+        "motion": {
+          "type": "inward-gather",
+          "durationMs": 650,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 190,
+        "weight": 900,
+        "motion": {
+          "type": "cyclic-vertical-roll",
+          "durationMs": 600,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "recommendation": {
+        "baseScore": 5000
+      }
+    },
+    {
+      "id": "preview-tail-corner",
+      "label": "缩角放大",
+      "description": "基础字放大入场，重点首字时放大重点，基础缩至右上，与重点右端对齐",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "end"
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "tail-corner",
+        "source": "内置示例 35",
+        "position": "结尾",
+        "length": "不限字数；重点词字数多于基础字幕时优先",
+        "sentence": "通用",
+        "preference": "重点词比基础字幕长时优先推荐",
+        "example": {
+          "text": "字幕应该这样排版",
+          "keywords": [
+            "这样排版"
+          ]
+        },
+        "sounds": [
+          "回忆-刷一下",
+          "诡异的滴水声"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-tail-corner-question",
+      "label": "缩角问句",
+      "description": "基础字放大入场，重点首字时放大重点，基础缩至右上，与重点右端对齐；右侧大问号与两行整体同高",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1,
+        "keywordPosition": "end"
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "tail-corner-question",
+        "source": "内置示例 36",
+        "position": "结尾",
+        "length": "不限字数；重点词字数多于基础字幕时优先",
+        "sentence": "疑问句",
+        "preference": "重点词比基础字幕长时优先推荐",
+        "example": {
+          "text": "字幕应该怎样排版？",
+          "keywords": [
+            "怎样排版"
+          ]
+        },
+        "sounds": [
+          "回忆-刷一下",
+          "诡异的滴水声"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-opening-gap",
+      "label": "双字展句",
+      "description": "句首两字并排滑入，第二字向右让位，基础字幕在中间分两行展开，溶解擦除退场",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "opening-gap",
+        "source": "内置示例 37",
+        "position": "开头",
+        "length": "重点恰好 2 字；基础多于 2 字，长句优先",
+        "sentence": "通用",
+        "preference": "重点恰好 2 字；基础多于 2 字，长句优先",
+        "example": {
+          "text": "字幕其实可以这样灵活排版",
+          "keywords": [
+            "字幕"
+          ]
+        },
+        "sounds": [
+          "闪入转场",
+          "撕纸声"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-opening-gap-reverse",
+      "label": "展句互换",
+      "description": "前两字保持普通色，后面整段重点在中间分两行展开，保留相同让位和退场",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "opening-gap-reverse",
+        "source": "内置示例 38",
+        "position": "前两字之后",
+        "length": "前两字为基础；其余整段设为一个重点，长句优先",
+        "sentence": "通用",
+        "preference": "前两字为基础；其余整段设为一个重点，长句优先",
+        "example": {
+          "text": "字幕其实可以这样灵活排版",
+          "keywords": [
+            "其实可以这样灵活排版"
+          ]
+        },
+        "sounds": [
+          "闪入转场",
+          "撕纸声"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-bilingual-plates",
+      "label": "半底双词",
+      "description": "两个重点从两侧滑入，中文下半部压在矩形上，框内下半部显示精简英文",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "bilingual-plates",
+        "source": "内置示例 39",
+        "position": "不限",
+        "length": "两个重点均至少 4 字时优先；可省略基础字幕",
+        "sentence": "通用",
+        "preference": "两个重点均至少 4 字时优先；可省略基础字幕",
+        "example": {
+          "text": "口播字幕需要高级排版",
+          "keywords": [
+            "口播字幕",
+            "高级排版"
+          ],
+          "english": "Voiceover captions / Refined typography"
+        },
+        "sounds": [
+          "唰",
+          "Swish"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-blur-stack",
+      "label": "模糊合叠",
+      "description": "基础字按完整词语拆成两部分，从左右模糊入场，重点缩小居中并压在合拢的基础字上",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "blur-stack",
+        "source": "内置示例 40",
+        "position": "结尾",
+        "length": "不限；前文需可分为两部分",
+        "sentence": "通用",
+        "preference": "不限；前文需可分为两部分",
+        "example": {
+          "text": "口播字幕还可以这样排版",
+          "keywords": [
+            "这样排版"
+          ]
+        },
+        "sounds": [
+          "镜头划动",
+          "亮一下"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-growing-pair",
+      "label": "逐词顶升",
+      "description": "基础与双重点同色同字号入场，两重点按首字依次放大变色，基础上升淡出",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "growing-pair",
+        "source": "内置示例 41",
+        "position": "结尾",
+        "length": "不限；两个重点组成句尾词组",
+        "sentence": "通用",
+        "preference": "不限；两个重点组成句尾词组",
+        "example": {
+          "text": "字幕排版让视频更高级更吸睛",
+          "keywords": [
+            "更高级",
+            "更吸睛"
+          ]
+        },
+        "sounds": [
+          "啵2",
+          "嘟咚",
+          "叮"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-tail-replace",
+      "label": "句尾替换",
+      "description": "基础向右滑入，多个句尾重点依次替换同一位置，字号一致，仅用颜色区分",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 5000
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "tail-replace",
+        "source": "内置示例 42",
+        "position": "结尾",
+        "length": "至少 2 个重点；重点词字数一致时优先",
+        "sentence": "通用",
+        "preference": "至少 2 个重点；重点词字数一致时优先",
+        "example": {
+          "text": "口播剪辑提前做好字幕预设",
+          "keywords": [
+            "提前做好",
+            "字幕预设"
+          ]
+        },
+        "sounds": [
+          "综艺嗖咻唰",
+          "磁带撕裂",
+          "咀嚼声"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-fold-pair",
+      "label": "对角折叠",
+      "description": "基础字幕提炼为句子主干并轻微放大，随后变淡；两个重点依次在左下、右上折叠出现并覆盖基础字",
+      "compatibility": {
+        "minKeywords": 2,
+        "maxKeywords": 2
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Douyin Sans"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "fold-pair",
+        "source": "内置示例 43",
+        "position": "不限（主干搭配双重点）",
+        "length": "短重点词不超过 3 字时优先；可省略连接词、程度词及句尾修饰",
+        "sentence": "通用",
+        "preference": "适用位置宽松，不要求重点严格位于句尾；保留句子主干与两个重点",
+        "example": {
+          "text": "这个工具简单又好用",
+          "keywords": [
+            "简单",
+            "好用"
+          ]
+        },
+        "sounds": [
+          "科技点击",
+          "tick×2"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-roll-banner",
+      "label": "滚字展条",
+      "description": "基础滚入，后半段重点向右展开色块，同时把基础字压到下面，两行左右对齐",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "roll-banner",
+        "source": "内置示例 44",
+        "position": "后半段",
+        "length": "不限字数，两行按实际字形宽度对齐",
+        "sentence": "通用",
+        "preference": "不限字数，两行按实际字形宽度对齐",
+        "example": {
+          "text": "口播字幕需概括重点",
+          "keywords": [
+            "需概括重点"
+          ]
+        },
+        "sounds": [
+          "发条旋钮转动",
+          "报纸折叠或展开"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    },
+    {
+      "id": "preview-roll-banner-reverse",
+      "label": "展条互换",
+      "description": "前面的重点滚入，后面的基础字向右展开色块，重点被向下推，两行左右对齐",
+      "compatibility": {
+        "minKeywords": 1,
+        "maxKeywords": 1
+      },
+      "defaults": {
+        "accentColor": "#f6bf0a"
+      },
+      "editable": [
+        "position",
+        "scale",
+        "accentColor"
+      ],
+      "font": {
+        "family": "SC Source Han Serif Heavy"
+      },
+      "container": {
+        "type": "none",
+        "fill": "#000000",
+        "opacity": 0,
+        "borderColor": "#000000",
+        "borderOpacity": 0,
+        "radius": 0,
+        "paddingX": 0,
+        "paddingY": 0,
+        "minWidthPercent": 0
+      },
+      "layout": {
+        "type": "two-line",
+        "gap": 14
+      },
+      "normal": {
+        "size": 62,
+        "color": "#ffffff",
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 350,
+          "fromScale": 0.5,
+          "trigger": "cue"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 5,
+          "color": "#000000",
+          "opacity": 35
+        }
+      },
+      "focus": {
+        "size": 88,
+        "weight": 900,
+        "motion": {
+          "type": "scale",
+          "durationMs": 420,
+          "fromScale": 0.5,
+          "trigger": "voice"
+        },
+        "shadow": {
+          "offsetX": 0,
+          "offsetY": 3,
+          "blur": 6,
+          "color": "#000000",
+          "opacity": 35
+        },
+        "color": "#f6bf0a"
+      },
+      "decoration": {
+        "type": "none"
+      },
+      "study": {
+        "kind": "roll-banner-reverse",
+        "source": "内置示例 45",
+        "position": "开头（互换版）",
+        "length": "不限字数；将前面滚动的一段设为重点",
+        "sentence": "通用",
+        "preference": "不限字数；将前面滚动的一段设为重点",
+        "example": {
+          "text": "口播字幕需概括重点",
+          "keywords": [
+            "口播字幕"
+          ]
+        },
+        "sounds": [
+          "发条旋钮转动",
+          "报纸折叠或展开"
+        ],
+        "acceptedOn": "2026-09-20"
+      }
+    }
+  ]
+}

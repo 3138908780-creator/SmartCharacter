@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "darwin-arm64": {
+      "file": "sc-components-darwin-arm64.tar.gz",
+      "sha256": "5c221d12f5d121f248ad2988a28274fbdc31f46b0bf386d2b6b5d1d65b35ebc7",
+      "inventorySha256": "2c8f8876db8a99d3670c795a433d5c2d809061f4ff0829923cc4746a39beb833",
+      "runtimeInventorySha256": "b99f45eac24ea81058e3c01eb2e48b91e21a447a9c78ea2356a7a0177460bcea"
+    },
+    "darwin-x64": {
+      "file": "sc-components-darwin-x64.tar.gz",
+      "sha256": "269cc3c599a647fcf379df3e2c719962720409b06d13e30c4e7169fb55f5e348",
+      "inventorySha256": "6d1e8773b1cf19ea056f597bc59951f408656d6cce78614543f515a6b739c48d",
+      "runtimeInventorySha256": "ef34d3f740e1717034630f2fede1ec5c6bcaa68fccdb9414f2732c92d84fd145"
+    },
+    "win32-x64": {
+      "file": "sc-components-win32-x64.tar.gz",
+      "sha256": "8e4e0caf669d5148932ab16d0955264b7de5ba1795d37c64395fb390f2b7e6a4",
+      "inventorySha256": "483d83430643d456d7d8ceb44904021ab02ac9213139433040a07e849c5c111d",
+      "runtimeInventorySha256": "e027c6b156eb494efc8c46be031c88a6afa6a747576749b625bd87076217cf02"
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "scope": "font and project asset provenance; third-party fonts retain original rights",
+  "fonts": [
+    {
+      "file": "public/fonts/NotoSansCJKsc-Bold.otf",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a",
+      "bytes": 17002248,
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
+      "license_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE",
+      "license_file": "public/fonts/licenses/NotoSansCJKsc-Bold-OFL-1.1.txt",
+      "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "© 2014-2021 Adobe (http://www.adobe.com/)."
+      ]
+    },
+    {
+      "file": "public/fonts/NotoSerifCJKsc-Bold.otf",
+      "sha256": "8af07d4b6c2e82bcc72a30e066eaf295f11b9424f4aad2eaa9fe0e9c3b38fc73",
+      "bytes": 25521460,
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf",
+      "license_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/LICENSE",
+      "license_file": "public/fonts/licenses/NotoSerifCJKsc-Bold-OFL-1.1.txt",
+      "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+      ],
+      "copyright": [
+        "© 2017-2024 Adobe (http://www.adobe.com/)."
+      ]
+    },
+    {
+      "file": "public/fonts/NotoSerifCJKsc-Black.otf",
+      "sha256": "2c2af226af6170ac28730be03b16ee7ffa6144fe54471d9ebe8a03de97b58160",
+      "bytes": 24063000,
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Black.otf",
+      "license_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/LICENSE",
+      "license_file": "public/fonts/licenses/NotoSerifCJKsc-Black-OFL-1.1.txt",
+      "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+      ],
+      "copyright": [
+        "© 2017-2024 Adobe (http://www.adobe.com/)."
+      ]
+    },
+    {
+      "file": "public/fonts/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "bytes": 16437364,
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "license_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE",
+      "license_file": "public/fonts/licenses/NotoSansCJKsc-Regular-OFL-1.1.txt",
+      "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "© 2014-2021 Adobe (http://www.adobe.com/)."
+      ]
+    },
+    {
+      "file": "public/fonts/NotoSerifCJKsc-Regular.otf",
+      "sha256": "2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca",
+      "bytes": 24543080,
+      "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf",
+      "license_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/LICENSE",
+      "license_file": "public/fonts/licenses/NotoSerifCJKsc-Regular-OFL-1.1.txt",
+      "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+      ],
+      "copyright": [
+        "© 2017-2024 Adobe (http://www.adobe.com/)."
+      ]
+    },
+    {
+      "file": "public/fonts/LXGWWenKai-Regular.ttf",
+      "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+      "bytes": 25575676,
+      "source_url": "https://raw.githubusercontent.com/lxgw/LxgwWenKai/main/fonts/TTF/LXGWWenKai-Regular.ttf",
+      "license_url": "https://raw.githubusercontent.com/lxgw/LxgwWenKai/main/OFL.txt",
+      "license_file": "public/fonts/licenses/LXGWWenKai-Regular-OFL-1.1.txt",
+      "license_sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 1.522; March 17, 2026"
+      ],
+      "copyright": [
+        "Copyright 2021-2026 LXGW (https://github.com/lxgw/LxgwWenKai)\nCopyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)"
+      ]
+    },
+    {
+      "file": "public/fonts/SmileySans-Oblique.ttf",
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+      "bytes": 2629764,
+      "source_url": "https://github.com/atelier-anchor/smiley-sans/releases/download/v2.0.1/smiley-sans-v2.0.1.zip",
+      "license_url": "https://raw.githubusercontent.com/atelier-anchor/smiley-sans/main/LICENSE",
+      "license_file": "public/fonts/licenses/SmileySans-Oblique-OFL-1.1.txt",
+      "license_sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.0.1"
+      ],
+      "copyright": [
+        "Copyright © 2022–2024 atelierAnchor. All rights reserved."
+      ]
+    },
+    {
+      "file": "public/fonts/DouyinSansBold.ttf",
+      "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+      "bytes": 1919404,
+      "source_url": "https://raw.githubusercontent.com/bytedance/fonts/main/DouyinSans/DouyinSansBold.ttf",
+      "license_url": "https://raw.githubusercontent.com/bytedance/fonts/main/DouyinSans/OFL.txt",
+      "license_file": "public/fonts/licenses/DouyinSansBold-OFL-1.1.txt",
+      "license_sha256": "a6d5700a002ea32bcfbe3310253d603997683dac8ac63777e375d06c07c30ea6",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 1.01"
+      ],
+      "copyright": [
+        "Copyright (c) 2023 Beijing Zitiao Network Technology Co., Ltd.",
+        "(c)2023 北京字跳网络技术有限公司 版权所有"
+      ]
+    },
+    {
+      "file": "public/fonts/MaShanZheng-Regular.ttf",
+      "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+      "bytes": 5857936,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/OFL.txt",
+      "license_file": "public/fonts/licenses/MaShanZheng-Regular-OFL-1.1.txt",
+      "license_sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.003"
+      ],
+      "copyright": [
+        "Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)"
+      ]
+    },
+    {
+      "file": "public/fonts/LongCang-Regular.ttf",
+      "sha256": "e5bf2c3f24ef2327c6f136d8f73e2f9dfdf44896fdbeb35a9515f44777bb91bc",
+      "bytes": 5162508,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/OFL.txt",
+      "license_file": "public/fonts/licenses/LongCang-Regular-OFL-1.1.txt",
+      "license_sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.001"
+      ],
+      "copyright": [
+        "Copyright 2018 The LongCang Project Authors (https://github.com/googlefonts/longcang)"
+      ]
+    },
+    {
+      "file": "public/fonts/LiuJianMaoCao-Regular.ttf",
+      "sha256": "cab396b91a5b7c0b4005a35891180d06e6751f5ac261fe680aec65c1ae209033",
+      "bytes": 4951804,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/OFL.txt",
+      "license_file": "public/fonts/licenses/LiuJianMaoCao-Regular-OFL-1.1.txt",
+      "license_sha256": "ff56684b0212481e7c3886c26d5a655de9b211c8119e5ccc756138a97b066acc",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 1.003"
+      ],
+      "copyright": [
+        "Copyright 2018 The Liu Jian Mao Cao Project Authors (https://www.github.com/googlefonts/liujianmaocao)"
+      ]
+    },
+    {
+      "file": "public/fonts/ZhiMangXing-Regular.ttf",
+      "sha256": "644e0cae9b40f0b10ab729a01bd32032e3973bac22be3dccae01bf6ae7fde969",
+      "bytes": 4063532,
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zhimangxing/ZhiMangXing-Regular.ttf",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zhimangxing/OFL.txt",
+      "license_file": "public/fonts/licenses/ZhiMangXing-Regular-OFL-1.1.txt",
+      "license_sha256": "10947328199e369a3e6b4a67e8e5507ed99d5bbb264a1f156415aa9b665e4d15",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 2.001"
+      ],
+      "copyright": [
+        "Copyright 2018 The ZhiMangXing Project Authors (https://github.com/googlefonts/zhimangxing)"
+      ]
+    },
+    {
+      "file": "public/fonts/TiejiliSC-Regular.ttf",
+      "sha256": "a62b797d8a3b283791700c7b1a476dda34d11843b68bcde39960db78d22052d8",
+      "bytes": 5801128,
+      "source_url": "https://raw.githubusercontent.com/Buernia/Tiejili/main/fonts/ttf/TiejiliSC-Regular.ttf",
+      "license_url": "https://raw.githubusercontent.com/Buernia/Tiejili/main/LICENSE",
+      "license_file": "public/fonts/licenses/TiejiliSC-Regular-OFL-1.1.txt",
+      "license_sha256": "9da4f114a2572c7c971fe57ae9bcf0e5d5838c01879c4b9d5f8c0efcddc64837",
+      "license": "OFL-1.1",
+      "version": [
+        "Version 1.100"
+      ],
+      "copyright": [
+        "Copyright © 2022 Buernia (https://github.com/Buernia)."
+      ]
+    }
+  ],
+  "project_assets": [
+    {
+      "file": "public/favicon.svg",
+      "sha256": "28a38e72aff13f49ae55563cd6b30cb242504d5bb5d18eed56f7a4e261566f72",
+      "origin": "SC geometric paths newly drawn for this project",
+      "license": "SC root LICENSE; project-owned rights only"
+    },
+    {
+      "file": "public/content-demo/blackboard.png",
+      "sha256": "ffdcb1b061be6536e463622320cef5269f0735b3a29ad5c0306719816c2ba7c9",
+      "origin": "GPT-generated background commissioned by project owner, confirmed 2026-10-09",
+      "license": "SC root LICENSE to the extent of rights held by project owner"
+    },
+    {
+      "file": "tests/fixtures/desktop-package-gray-sine.mp4",
+      "sha256": "b3e2a2b8560448d69b6cd5a0647ec559ffb54ce2ca504d2781849a6fcc7b3ef7",
+      "origin": "synthetic gray video and sine tone, no original private media",
+      "license": "SC root LICENSE to the extent applicable"
+    }
+  ]
+}

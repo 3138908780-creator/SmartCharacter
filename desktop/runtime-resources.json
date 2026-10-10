@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 3,
+  "processingReady": true,
+  "targets": [
+    "darwin-arm64",
+    "win32-x64",
+    "darwin-x64"
+  ],
+  "status": "release resources locked per target; packaged inventory hash required; acceptance matrix separate",
+  "resources": {
+    "python": {
+      "relative": "python/bin/python3.12",
+      "windowsRelative": "python/python.exe",
+      "version": null,
+      "sha256": null,
+      "license": null,
+      "redistributionApproved": false
+    },
+    "ffmpeg": {
+      "relative": "bin/ffmpeg",
+      "windowsRelative": "bin/ffmpeg.exe",
+      "version": null,
+      "sha256": null,
+      "license": null,
+      "redistributionApproved": false
+    },
+    "ffprobe": {
+      "relative": "bin/ffprobe",
+      "windowsRelative": "bin/ffprobe.exe",
+      "version": null,
+      "sha256": null,
+      "license": null,
+      "redistributionApproved": false
+    },
+    "whisper": {
+      "relative": "bin/whisper-cli",
+      "windowsRelative": "bin/whisper-cli.exe",
+      "version": null,
+      "sha256": null,
+      "license": null,
+      "redistributionApproved": false
+    },
+    "faceDetector": {
+      "relative": "bin/sc-face-detector",
+      "windowsRelative": "bin/sc-face-detector.exe",
+      "version": null,
+      "sha256": null,
+      "license": null,
+      "redistributionApproved": false,
+      "platforms": [
+        "darwin"
+      ]
+    },
+    "whisperModel": {
+      "relative": "models/ggml-base-q5_1.bin",
+      "windowsRelative": "models/ggml-base-q5_1.bin",
+      "executable": false,
+      "version": "base-q5_1",
+      "sha256": null,
+      "license": null,
+      "redistributionApproved": false
+    },
+    "yunetModel": {
+      "relative": "models/face_detection_yunet_2023mar.onnx",
+      "windowsRelative": "models/face_detection_yunet_2023mar.onnx",
+      "platforms": [
+        "win32"
+      ],
+      "executable": false,
+      "version": "2023mar",
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "license": "MIT (OpenCV Zoo model directory)",
+      "redistributionApproved": false
+    }
+  }
+}

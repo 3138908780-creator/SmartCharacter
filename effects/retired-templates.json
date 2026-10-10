@@ -1,0 +1,410 @@
+{
+  "date": "2026-09-19",
+  "reason": "停用组合历史记录",
+  "templates": [
+    {
+      "template": {
+        "id": "cascade-dissolve",
+        "label": "错层溶入",
+        "description": "大小基础字缩小落位，重点词从上方向下溶解进入错层结构",
+        "compatibility": {
+          "minKeywords": 1,
+          "maxKeywords": 1
+        },
+        "defaults": {
+          "accentColor": "#f6bf0a",
+          "position": {
+            "x": 50,
+            "y": 48
+          }
+        },
+        "editable": [
+          "position",
+          "scale",
+          "accentColor"
+        ],
+        "font": {
+          "family": "SC Source Han Serif"
+        },
+        "container": {
+          "type": "none",
+          "fill": "#000000",
+          "opacity": 0,
+          "borderColor": "#000000",
+          "borderOpacity": 0,
+          "radius": 0,
+          "paddingX": 0,
+          "paddingY": 0,
+          "minWidthPercent": 0
+        },
+        "layout": {
+          "type": "cascade",
+          "gap": 16,
+          "primaryCharacters": 2,
+          "secondaryScale": 0.55,
+          "slots": [
+            {
+              "x": -126,
+              "y": -126
+            },
+            {
+              "x": 98,
+              "y": 126
+            },
+            {
+              "x": 180,
+              "y": -6
+            }
+          ]
+        },
+        "normal": {
+          "size": 166,
+          "color": "#eeeeeb",
+          "weight": 800,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "scale",
+            "durationMs": 400,
+            "trigger": "cue",
+            "fromScale": 1.55
+          }
+        },
+        "focus": {
+          "size": 102,
+          "weight": 900,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "down-dissolve",
+            "durationMs": 360,
+            "trigger": "voice",
+            "fromScale": 2.2,
+            "fromY": -42
+          }
+        },
+        "decoration": {
+          "type": "none"
+        }
+      },
+      "review": {
+        "notes": "停用组合",
+        "fields": {},
+        "appliedNotes": "删除这个组合",
+        "updatedAt": "2026-09-19T13:07:48.965Z"
+      }
+    },
+    {
+      "template": {
+        "id": "clean-two-line",
+        "label": "双行揭示",
+        "description": "基础字先横向揭开，重点词随后在下方放大聚焦",
+        "compatibility": {
+          "minKeywords": 1,
+          "maxKeywords": 1
+        },
+        "defaults": {
+          "accentColor": "#f6bf0a",
+          "position": {
+            "x": 50,
+            "y": 48
+          }
+        },
+        "editable": [
+          "position",
+          "scale",
+          "accentColor"
+        ],
+        "font": {
+          "family": "SC Source Han Serif"
+        },
+        "container": {
+          "type": "none",
+          "fill": "#000000",
+          "opacity": 0,
+          "borderColor": "#000000",
+          "borderOpacity": 0,
+          "radius": 0,
+          "paddingX": 0,
+          "paddingY": 0,
+          "minWidthPercent": 0
+        },
+        "layout": {
+          "type": "two-line",
+          "gap": 16,
+          "lineOrder": "normal-focus",
+          "align": "center",
+          "slots": [
+            {
+              "x": 0,
+              "y": -54
+            },
+            {
+              "x": 0,
+              "y": 58
+            }
+          ]
+        },
+        "normal": {
+          "size": 78,
+          "color": "#eeeeeb",
+          "weight": 600,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "sweep-reveal",
+            "durationMs": 300,
+            "trigger": "cue",
+            "fromX": -72,
+            "fromBlur": 5
+          }
+        },
+        "focus": {
+          "size": 112,
+          "weight": 900,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "smear-settle",
+            "durationMs": 300,
+            "trigger": "voice",
+            "fromScale": 0.78,
+            "fromBlur": 7
+          }
+        },
+        "decoration": {
+          "type": "none"
+        }
+      },
+      "review": {
+        "notes": "停用组合",
+        "fields": {
+          "sound": {
+            "value": "打字声/啵",
+            "status": "confirmed",
+            "required": false
+          }
+        },
+        "updatedAt": "2026-09-19T13:28:49.655Z"
+      }
+    },
+    {
+      "template": {
+        "id": "offset-two-line",
+        "label": "错位双行",
+        "description": "基础字先建立，重点词在左上方错位横向揭开",
+        "compatibility": {
+          "minKeywords": 1,
+          "maxKeywords": 1
+        },
+        "defaults": {
+          "accentColor": "#d82f2f",
+          "position": {
+            "x": 50,
+            "y": 48
+          }
+        },
+        "editable": [
+          "position",
+          "scale",
+          "accentColor"
+        ],
+        "font": {
+          "family": "SC Source Han Serif"
+        },
+        "container": {
+          "type": "none",
+          "fill": "#000000",
+          "opacity": 0,
+          "borderColor": "#000000",
+          "borderOpacity": 0,
+          "radius": 0,
+          "paddingX": 0,
+          "paddingY": 0,
+          "minWidthPercent": 0
+        },
+        "layout": {
+          "type": "two-line",
+          "gap": 8,
+          "lineOrder": "focus-normal",
+          "align": "left",
+          "slots": [
+            {
+              "x": -28,
+              "y": 42
+            },
+            {
+              "x": -42,
+              "y": -46
+            }
+          ]
+        },
+        "normal": {
+          "size": 78,
+          "color": "#eeeeeb",
+          "weight": 700,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "sweep-reveal",
+            "durationMs": 310,
+            "trigger": "cue",
+            "fromX": -110,
+            "fromBlur": 5
+          }
+        },
+        "focus": {
+          "size": 76,
+          "weight": 700,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "sweep-reveal",
+            "durationMs": 300,
+            "trigger": "voice",
+            "fromX": 90,
+            "fromBlur": 5
+          }
+        },
+        "decoration": {
+          "type": "none"
+        }
+      },
+      "review": {
+        "notes": "停用组合",
+        "fields": {},
+        "appliedNotes": "删除这个组合",
+        "updatedAt": "2026-09-19T13:30:00.602Z"
+      }
+    },
+    {
+      "template": {
+        "id": "editorial-two-line",
+        "label": "编排双行",
+        "description": "白色主句与暖色斜体重点词以编辑式双行错位揭开",
+        "compatibility": {
+          "minKeywords": 1,
+          "maxKeywords": 1
+        },
+        "defaults": {
+          "accentColor": "#e26720",
+          "position": {
+            "x": 50,
+            "y": 48
+          }
+        },
+        "editable": [
+          "position",
+          "scale",
+          "accentColor"
+        ],
+        "font": {
+          "family": "SC Source Han Serif"
+        },
+        "container": {
+          "type": "none",
+          "fill": "#000000",
+          "opacity": 0,
+          "borderColor": "#000000",
+          "borderOpacity": 0,
+          "radius": 0,
+          "paddingX": 0,
+          "paddingY": 0,
+          "minWidthPercent": 0
+        },
+        "layout": {
+          "type": "two-line",
+          "gap": 4,
+          "lineOrder": "normal-focus",
+          "align": "left",
+          "slots": [
+            {
+              "x": -34,
+              "y": -40
+            },
+            {
+              "x": -12,
+              "y": 42
+            }
+          ]
+        },
+        "normal": {
+          "size": 82,
+          "color": "#eeeeeb",
+          "weight": 500,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "sweep-reveal",
+            "durationMs": 340,
+            "trigger": "cue",
+            "fromX": -120,
+            "fromBlur": 6
+          }
+        },
+        "focus": {
+          "size": 72,
+          "weight": 600,
+          "shadow": {
+            "offsetX": 0,
+            "offsetY": 4,
+            "blur": 10,
+            "color": "#000000",
+            "opacity": 50
+          },
+          "motion": {
+            "type": "sweep-reveal",
+            "durationMs": 340,
+            "trigger": "voice",
+            "fromX": 120,
+            "fromBlur": 6
+          }
+        },
+        "decoration": {
+          "type": "none"
+        }
+      },
+      "review": {
+        "notes": "停用组合",
+        "fields": {},
+        "appliedNotes": "删除这个组合",
+        "updatedAt": "2026-09-19T13:31:13.010Z"
+      }
+    }
+  ]
+}

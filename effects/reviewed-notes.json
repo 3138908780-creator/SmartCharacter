@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-19",
+  "entries": {
+    "center-cut": {
+      "notes": "作为通用备选，降低推荐权重；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {
+        "position": "",
+        "sound": "唰"
+      },
+      "changes": [
+        "作为通用备选，降低推荐权重",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "898666520fce036fec3e307093bb4c6540acef249fb2812b024ff2fd2df03ecd"
+    },
+    "gold-underline": {
+      "notes": "句中优先，句尾可用，句首不参与自动推荐；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {
+        "position": "中间",
+        "sound": "页面切换、在纸上一笔划过的声音"
+      },
+      "changes": [
+        "句中优先，句尾可用，句首不参与自动推荐",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "5228812fc4a44c925db72dc94ce498ba6d412d94d1413e16d33deecfc6d48a91"
+    },
+    "dual-focus": {
+      "notes": "",
+      "fields": {
+        "sound": "滴，提示音*2"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "multi-focus": {
+      "notes": "",
+      "fields": {
+        "sound": "唰"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "amber-wipe": {
+      "notes": "",
+      "fields": {
+        "sound": "拉链"
+      },
+      "changes": [
+        "使用橙色底块与白色文字",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "gold-takeover": {
+      "notes": "",
+      "fields": {
+        "sound": "键盘打字长音/卡通"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "keyword-rail": {
+      "notes": "整句平滑滑出画面左边；退出不再参与自动缩放；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {
+        "sound": "啵1"
+      },
+      "changes": [
+        "整句平滑滑出画面左边；退出不再参与自动缩放",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "10c73d3b0c0f4271ae858c6de8b7e918168403999338f3000b9dd546d2557d26"
+    },
+    "fold-pop-focus": {
+      "notes": "",
+      "fields": {
+        "sound": "唰/卡通弹跳音2"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stagger-reveal": {
+      "notes": "基础字号调整为重点字号的约 85%；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {
+        "sound": "撕开包装纸"
+      },
+      "changes": [
+        "基础字号调整为重点字号的约 85%",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "39b36ad710973087f2071ff51de3f5f79334846a14a0df7368c81d366af9349a"
+    },
+    "opposed-reveal": {
+      "notes": "",
+      "fields": {
+        "sound": "唰/啵1"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "bilateral-bloom": {
+      "notes": "基础字号调整为重点字号的约 85%；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {
+        "sound": "嗖嗖/叮咚提示音1"
+      },
+      "changes": [
+        "基础字号调整为重点字号的约 85%",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "39b36ad710973087f2071ff51de3f5f79334846a14a0df7368c81d366af9349a"
+    },
+    "progressive-pair": {
+      "notes": "",
+      "fields": {
+        "sound": "弹出"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "smear-backdrop": {
+      "notes": "",
+      "fields": {
+        "sound": "打字声/唰"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "question-divider": {
+      "notes": "",
+      "fields": {
+        "sound": "点击/ui界面"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "typed-rise": {
+      "notes": "",
+      "fields": {
+        "sound": "打字生/弹出"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "flank-glitch": {
+      "notes": "",
+      "fields": {
+        "sound": "唰"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "echo-focus": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "headline-tag": {
+      "notes": "",
+      "fields": {
+        "sound": "点击"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "hook-overwrite": {
+      "notes": "",
+      "fields": {
+        "sound": "唰/卡通"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scatter-core": {
+      "notes": "",
+      "fields": {
+        "sound": "综艺吹风/iphone锁屏声*2"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence-converge": {
+      "notes": "",
+      "fields": {
+        "sound": "盖章/点击"
+      },
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reference-sticky-board": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reference-split-glow": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reference-inhale-overlay": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reference-lead-flip": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reference-lead-fold": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reference-lead-laser": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "study-roll-overlay": {
+      "notes": "正文逐字间隔缩至不超过 45 毫秒；句首重点 1–4 字且基础字数更多可用；整句至少 10 字优先；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {
+        "length": "重点词出现在句首且重点词字数≦4时可以优先推荐，适用于长句子，但要保证基础字幕字数多于重点词字数",
+        "sentence": "通用"
+      },
+      "changes": [
+        "正文逐字间隔缩至不超过 45 毫秒",
+        "句首重点 1–4 字且基础字数更多可用；整句至少 10 字优先",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "00ff3167fc0c2dc413b59e50e660cee297a736458ab32e268e8c2ee99d8bb784"
+    },
+    "study-tail-gradient": {
+      "notes": "正文渐变不透明度调整为 100%→72%；整句至少 10 字优先，其他合规句尾仍可使用；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {
+        "length": "整句字数大于等于十个字时优先推荐，其他句末出现重点词的情况也能用"
+      },
+      "changes": [
+        "正文渐变不透明度调整为 100%→72%",
+        "整句至少 10 字优先，其他合规句尾仍可使用",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "f6c72b77d87c7819863869e03188f4fb33c9f4b13a5190728784f94c2427c219"
+    },
+    "study-question-diagonal": {
+      "notes": "支持完整问句或两个完整选择选项；双重点时只显示两个选项、英文与方形问号；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {},
+      "changes": [
+        "支持完整问句或两个完整选择选项",
+        "双重点时只显示两个选项、英文与方形问号",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "2019cd5c95d769659b3f9240a6cc54460bc53b1962ecfd882794a5e9559cfa9f"
+    },
+    "study-drop-push": {
+      "notes": "",
+      "fields": {
+        "length": "整句字数≥ 10的时候优先推荐，字数为偶数时也可以优先推荐其他的也可以适用"
+      },
+      "changes": [
+        "整句至少 10 字或偶数字数时提高推荐权重",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "study-type-vault": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "study-ice-split": {
+      "notes": "",
+      "fields": {},
+      "changes": [
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "study-number-inhale": {
+      "notes": "符合数字在前、末尾重点在后的组合优先推荐；重点色统一为橙黄色，多重点使用协调暖色；音效名称已同步总表",
+      "fields": {},
+      "changes": [
+        "符合数字在前、末尾重点在后的组合优先推荐",
+        "重点色统一为橙黄色，多重点使用协调暖色",
+        "音效名称已同步总表"
+      ],
+      "legacyNotesSha256": "be0ef6eab1852e39214eda3835d421a16d09ea3541cd1a6f658732a7a736814b"
+    }
+  }
+}

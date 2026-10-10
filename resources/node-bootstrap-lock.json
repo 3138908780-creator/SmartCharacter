@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "darwin-arm64": {
+      "version": "24.14.0",
+      "file": "node-v24.14.0-darwin-arm64.tar.gz",
+      "directory": "node-v24.14.0-darwin-arm64",
+      "url": "https://nodejs.org/download/release/v24.14.0/node-v24.14.0-darwin-arm64.tar.gz",
+      "sha256": "a1a54f46a750d2523d628d924aab61758a51c9dad3e0238beb14141be9615dd3",
+      "license": "Node included LICENSE and bundled dependencies",
+      "binarySha256": "20a18709f0154d668f1bd6f6ea8c2a7ae001447b4b2c339732f22e57a8767a55"
+    },
+    "darwin-x64": {
+      "version": "24.14.0",
+      "file": "node-v24.14.0-darwin-x64.tar.gz",
+      "directory": "node-v24.14.0-darwin-x64",
+      "url": "https://nodejs.org/download/release/v24.14.0/node-v24.14.0-darwin-x64.tar.gz",
+      "sha256": "f2879eb810e25993a0578e5d878930266fd2eafcffe9f2839b3d8db354d4879e",
+      "license": "Node included LICENSE and bundled dependencies",
+      "binarySha256": "50a3ba85f9a2445591012eb9932966acf313c86712847e5c2ef19774636e681f"
+    },
+    "win32-x64": {
+      "version": "24.14.0",
+      "file": "node-v24.14.0-win-x64.zip",
+      "directory": "node-v24.14.0-win-x64",
+      "url": "https://nodejs.org/download/release/v24.14.0/node-v24.14.0-win-x64.zip",
+      "sha256": "313fa40c0d7b18575821de8cb17483031fe07d95de5994f6f435f3b345f85c66",
+      "license": "Node included LICENSE and bundled dependencies",
+      "binarySha256": "63c259c81e5d472b5f11c8d506070130cb04a1ecf84b80377a34ed6ec9048088"
+    }
+  }
+}

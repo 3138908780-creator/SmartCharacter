@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "target": "win32-x64",
+  "minimumOS": "Windows 11 (pending real-machine acceptance)",
+  "assets": {
+    "python": {
+      "file": "cpython-3.12.15+20261003-x86_64-pc-windows-msvc-install_only.tar.gz",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261003/cpython-3.12.15%2B20261003-x86_64-pc-windows-msvc-install_only.tar.gz",
+      "sha256": "4b6f0beebbb695a0f3ea237b8c3eaa5bd424f47a7bc25b2fbe3a43390c770f08",
+      "version": "3.12.15+20261003",
+      "license": "CPython/Python-build-standalone included notices"
+    },
+    "pillow": {
+      "file": "pillow-11.3.0-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/8c/ce/e7dfc873bdd9828f3b6e5c2bbb74e47a98ec23cc5c74fc4e54462f0d9204/pillow-11.3.0-cp312-cp312-win_amd64.whl",
+      "sha256": "a6444696fce635783440b7f7a9fc24b3ad10a9ea3f0ab66c5905be1c19ccf17d",
+      "version": "11.3.0",
+      "license": "wheel includes all dependency license notices"
+    },
+    "numpy": {
+      "file": "numpy-2.2.6-cp312-cp312-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/36/fa/8c9210162ca1b88529ab76b41ba02d433fd54fecaf6feb70ef9f124683f1/numpy-2.2.6-cp312-cp312-win_amd64.whl",
+      "sha256": "c1f9540be57940698ed329904db803cf7a402f3fc200bfe599334c9bd84a40b2",
+      "version": "2.2.6",
+      "license": "wheel includes all dependency license notices"
+    },
+    "opencv": {
+      "file": "opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "url": "https://files.pythonhosted.org/packages/4a/90/b338326131ccb2aaa3c2c85d00f41822c0050139a4bfe723cfd95455bd2d/opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "sha256": "77a82fe35ddcec0f62c15f2ba8a12ecc2ed4207c17b0902c7a3151ae29f37fb6",
+      "version": "4.13.0.92",
+      "license": "wheel includes all dependency license notices"
+    },
+    "whisperModel": {
+      "file": "ggml-base-q5_1.bin",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin",
+      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
+      "version": "base-q5_1@5359861c739e955e79d9a303bcbc70fb988958b1",
+      "license": "MIT"
+    },
+    "ffmpegSource": {
+      "file": "ffmpeg-9.0.2.tar.xz",
+      "url": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+      "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e",
+      "version": "9.0.2",
+      "license": "LGPL-2.1-or-later with GPL/nonfree/version3 disabled"
+    },
+    "whisperSource": {
+      "file": "whisper-v1.9.5.tar.gz",
+      "url": "https://codeload.github.com/ggml-org/whisper.cpp/tar.gz/refs/tags/v1.9.5",
+      "sha256": "ff1a9053feb509ff9d7729703355541ae9690073a6b1c40eb692c962e0dc1720",
+      "version": "1.9.5",
+      "license": "MIT"
+    },
+    "whisperModelLicense": {
+      "file": "whisper-model-LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/whisper/main/LICENSE",
+      "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+      "version": "model MIT license",
+      "license": "MIT"
+    },
+    "canvasLicense": {
+      "file": "canvas-LICENSE",
+      "url": "https://raw.githubusercontent.com/Brooooooklyn/canvas/v1.0.9/LICENSE",
+      "sha256": "8802fecf9da4367bc23bcf20b21cc143785fc6c92b152f3fa7fbe6ce08d344d6",
+      "version": "1.0.9",
+      "license": "MIT"
+    },
+    "skiaLicense": {
+      "file": "skia-LICENSE",
+      "url": "https://raw.githubusercontent.com/google/skia/main/LICENSE",
+      "sha256": "5f787c1dee3c56547f09ccc2906ab5f5293c4d8dd6c8654e573216c38e908dbd",
+      "version": "Skia license notice",
+      "license": "BSD-3-Clause"
+    },
+    "pythonNotices": {
+      "file": "cpython-3.12.15+20261003-x86_64-pc-windows-msvc-pgo-full.tar.zst",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261003/cpython-3.12.15%2B20261003-x86_64-pc-windows-msvc-pgo-full.tar.zst",
+      "sha256": "200c8cd8b3b157d5c415c4cddb84ba4cb9def5499a08fe311f1e661fd195d116",
+      "version": "3.12.15+20261003 full license metadata",
+      "license": "CPython and bundled dependencies"
+    },
+    "canvasSource": {
+      "file": "canvas-v1.0.9.tar.gz",
+      "url": "https://codeload.github.com/Brooooooklyn/canvas/tar.gz/refs/tags/v1.0.9",
+      "sha256": "24a585702c04b8a3fcd503636633944a594b0ff841adb5cbe0e881a199e4cb54",
+      "version": "1.0.9",
+      "license": "MIT plus Skia third-party notices"
+    },
+    "yunetModel": {
+      "file": "face_detection_yunet_2023mar.onnx",
+      "url": "https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx",
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "version": "2023mar",
+      "license": "MIT"
+    },
+    "yunetLicense": {
+      "file": "yunet-LICENSE",
+      "url": "https://raw.githubusercontent.com/opencv/opencv_zoo/main/models/face_detection_yunet/LICENSE",
+      "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958",
+      "version": "2023mar",
+      "license": "MIT"
+    },
+    "skiaSource": {
+      "file": "skia-a9c42c9.tar.gz",
+      "url": "https://codeload.github.com/google/skia/tar.gz/a9c42c9fce77cd748805df0ec67ef5718800b1e9",
+      "sha256": "70a57fda737ea04d1d469421f911508e58fbc5f6ed89b1c44c3935ba031fcf97",
+      "version": "a9c42c9fce77cd748805df0ec67ef5718800b1e9",
+      "license": "BSD-3-Clause and DEPS original license notices"
+    }
+  },
+  "hashProvenance": "Python/CMake GitHub release digests; wheels PyPI digests; model Hugging Face LFS; source/license archives pinned SHA-256 after official HTTPS download. PGP source signature not checked.",
+  "nodePackages": {
+    "@napi-rs/canvas": {
+      "file": "napi-rs-canvas-1.0.9.tgz",
+      "url": "https://registry.npmjs.org/@napi-rs/canvas/-/canvas-1.0.9.tgz",
+      "sha256": "11360a612d037d52ef0dd07439849fa7a36c4467e511a8d1cfde33abddc99301",
+      "version": "1.0.9",
+      "license": "MIT",
+      "integrity": "sha512-QviPdJImDi/jMAvBfqaw+19BndMd/sizXVW3NnpMd3VJGz++QXkOHcP9kWR/smHG0hNjHeyuHFyrx/5lD0oNcQ=="
+    },
+    "@napi-rs/canvas-win32-x64-msvc": {
+      "file": "napi-rs-canvas-win32-x64-msvc-1.0.9.tgz",
+      "url": "https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-1.0.9.tgz",
+      "sha256": "f78a3f43e4a6a2fd24e54937fad6d6a8732bb8d7a1a495ed70325249f54075a4",
+      "version": "1.0.9",
+      "license": "MIT",
+      "integrity": "sha512-QlSYQdMQslB81nlABo9wNfQ6npFhE7/O+saCZdqVGueGanyRk4jCogD5EwQenfP3kIq9e+mm6GreQBjX5MrA8g=="
+    },
+    "busboy": {
+      "file": "busboy-1.6.0.tgz",
+      "url": "https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz",
+      "sha256": "819382c071f2c537cc46c805e3cbb4d335aee8c430f81723a76f128cc8560828",
+      "version": "1.6.0",
+      "license": "MIT",
+      "integrity": "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA=="
+    },
+    "streamsearch": {
+      "file": "streamsearch-1.1.0.tgz",
+      "url": "https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz",
+      "sha256": "d914d0a943464622a932ee9602bf523bd4fe649dd443689057c0ade0be4aa9a8",
+      "version": "1.1.0",
+      "license": "MIT",
+      "integrity": "sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg=="
+    },
+    "pinyin-pro": {
+      "file": "pinyin-pro-3.29.4.tgz",
+      "url": "https://registry.npmjs.org/pinyin-pro/-/pinyin-pro-3.29.4.tgz",
+      "sha256": "433bc66ce6bcc23ff293b268a39452461e92987b9a13eefb7242cbe3103998cd",
+      "version": "3.29.4",
+      "license": "MIT",
+      "integrity": "sha512-SPXpDT2cHEy+d26V1RXYMlVzXN42hotFAak1fzyWPi4o2dKXb61UqD4pzxDJHwk6gbv8vQ6EfErd+hYX0Qhzug=="
+    }
+  },
+  "referenceAssets": {
+    "whisperBinary": {
+      "file": "whisper-bin-x64.zip",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/download/b5454/whisper-bin-x64.zip",
+      "sha256": "6ba69e3482d7826214f90a6a9c84ca07782aec1e1d0c6a7c30c994fd5d816ccb",
+      "version": "1.9.5 / b5454 / d1be6fd",
+      "license": "MIT; CPU CLI and matching ggml DLLs only"
+    }
+  },
+  "localBuilds": {
+    "ffmpeg": {
+      "files": {
+        "ffmpeg.exe": "928e61df8395f461ec208456df39b74ff14b864d4fac169aa0f4b99018873b6c",
+        "ffprobe.exe": "afe3ab96c3ed717f184f8e19953f95ade7a0f91d075fcb7bd49058466a1e6ece"
+      },
+      "toolchainSource": "https://ziglang.org/download/0.15.2/zig-aarch64-macos-0.15.2.tar.xz"
+    },
+    "whisper": {
+      "files": {
+        "whisper-cli.exe": "5ec6563e875d5b34fb091a9ebefcf75ab47d061d1ecca3ffdd2bdbd977831f22"
+      },
+      "source": "https://codeload.github.com/ggml-org/whisper.cpp/tar.gz/refs/tags/v1.9.5"
+    }
+  }
+}

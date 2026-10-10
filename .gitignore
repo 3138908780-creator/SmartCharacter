@@ -1,0 +1,26 @@
+node_modules/
+.venv/
+.models/
+dist*/
+.next/
+.vinext/
+.wrangler/
+.desktop-data/
+exports/
+*.tsbuildinfo
+.env*
+__pycache__/
+*.pyc
+
+# Isolated downloadable runtime, build intermediates and local delivery candidates
+runtime/
+.runtime-cache/
+delivery/
+
+bundles/
+
+# Finder metadata, extracted resource forks and private local data
+.DS_Store
+._*
+user-data/
+*.partial

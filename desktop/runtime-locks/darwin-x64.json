@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "target": "darwin-x64",
+  "minimumOS": "macOS 14 (pending real-machine acceptance)",
+  "assets": {
+    "python": {
+      "file": "cpython-3.12.15+20261003-x86_64-apple-darwin-install_only.tar.gz",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261003/cpython-3.12.15%2B20261003-x86_64-apple-darwin-install_only.tar.gz",
+      "sha256": "a8fd7a91852f19b6d959793ef41fad048631ccb2a334a9ecdf573255298f7978",
+      "version": "3.12.15+20261003",
+      "license": "CPython/Python-build-standalone included notices"
+    },
+    "pillow": {
+      "file": "pillow-11.3.0-cp312-cp312-macosx_10_13_x86_64.whl",
+      "url": "https://files.pythonhosted.org/packages/40/fe/1bc9b3ee13f68487a99ac9529968035cca2f0a51ec36892060edcc51d06a/pillow-11.3.0-cp312-cp312-macosx_10_13_x86_64.whl",
+      "sha256": "fdae223722da47b024b867c1ea0be64e0df702c5e0a60e27daad39bf960dd1e4",
+      "version": "11.3.0",
+      "license": "wheel includes all dependency license notices"
+    },
+    "whisperModel": {
+      "file": "ggml-base-q5_1.bin",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin",
+      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
+      "version": "base-q5_1@5359861c739e955e79d9a303bcbc70fb988958b1",
+      "license": "MIT"
+    },
+    "ffmpegSource": {
+      "file": "ffmpeg-9.0.2.tar.xz",
+      "url": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+      "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e",
+      "version": "9.0.2",
+      "license": "LGPL-2.1-or-later with GPL/nonfree/version3 disabled"
+    },
+    "whisperSource": {
+      "file": "whisper-v1.9.5.tar.gz",
+      "url": "https://codeload.github.com/ggml-org/whisper.cpp/tar.gz/refs/tags/v1.9.5",
+      "sha256": "ff1a9053feb509ff9d7729703355541ae9690073a6b1c40eb692c962e0dc1720",
+      "version": "1.9.5",
+      "license": "MIT"
+    },
+    "whisperModelLicense": {
+      "file": "whisper-model-LICENSE",
+      "url": "https://raw.githubusercontent.com/openai/whisper/main/LICENSE",
+      "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+      "version": "model MIT license",
+      "license": "MIT"
+    },
+    "canvasLicense": {
+      "file": "canvas-LICENSE",
+      "url": "https://raw.githubusercontent.com/Brooooooklyn/canvas/v1.0.9/LICENSE",
+      "sha256": "8802fecf9da4367bc23bcf20b21cc143785fc6c92b152f3fa7fbe6ce08d344d6",
+      "version": "1.0.9",
+      "license": "MIT"
+    },
+    "skiaLicense": {
+      "file": "skia-LICENSE",
+      "url": "https://raw.githubusercontent.com/google/skia/main/LICENSE",
+      "sha256": "5f787c1dee3c56547f09ccc2906ab5f5293c4d8dd6c8654e573216c38e908dbd",
+      "version": "Skia license notice",
+      "license": "BSD-3-Clause"
+    },
+    "cmake": {
+      "file": "cmake-4.4.4-macos-universal.tar.gz",
+      "url": "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-macos-universal.tar.gz",
+      "sha256": "4b7b73704b1db9b374e5c9ab8e17ac6148b817b6396ee75cd94a852cbac9d305",
+      "version": "4.4.4",
+      "license": "BSD-3-Clause; build tool only"
+    },
+    "pythonNotices": {
+      "file": "cpython-3.12.15+20261003-x86_64-apple-darwin-pgo+lto-full.tar.zst",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261003/cpython-3.12.15%2B20261003-x86_64-apple-darwin-pgo%2Blto-full.tar.zst",
+      "sha256": "49e58a92353d51f23c1b1d6e3f391dbc7180f822e317d6568c89c959f2579ee8",
+      "version": "3.12.15+20261003 full license metadata",
+      "license": "CPython and bundled dependencies"
+    },
+    "canvasSource": {
+      "file": "canvas-v1.0.9.tar.gz",
+      "url": "https://codeload.github.com/Brooooooklyn/canvas/tar.gz/refs/tags/v1.0.9",
+      "sha256": "24a585702c04b8a3fcd503636633944a594b0ff841adb5cbe0e881a199e4cb54",
+      "version": "1.0.9",
+      "license": "MIT plus Skia third-party notices"
+    },
+    "skiaSource": {
+      "file": "skia-a9c42c9.tar.gz",
+      "url": "https://codeload.github.com/google/skia/tar.gz/a9c42c9fce77cd748805df0ec67ef5718800b1e9",
+      "sha256": "70a57fda737ea04d1d469421f911508e58fbc5f6ed89b1c44c3935ba031fcf97",
+      "version": "a9c42c9fce77cd748805df0ec67ef5718800b1e9",
+      "license": "BSD-3-Clause and DEPS original license notices"
+    }
+  },
+  "hashProvenance": "Python/CMake GitHub release digests; wheels PyPI digests; model Hugging Face LFS; source/license archives pinned SHA-256 after official HTTPS download. PGP source signature not checked.",
+  "nodePackages": {
+    "@napi-rs/canvas": {
+      "file": "napi-rs-canvas-1.0.9.tgz",
+      "url": "https://registry.npmjs.org/@napi-rs/canvas/-/canvas-1.0.9.tgz",
+      "sha256": "11360a612d037d52ef0dd07439849fa7a36c4467e511a8d1cfde33abddc99301",
+      "version": "1.0.9",
+      "license": "MIT",
+      "integrity": "sha512-QviPdJImDi/jMAvBfqaw+19BndMd/sizXVW3NnpMd3VJGz++QXkOHcP9kWR/smHG0hNjHeyuHFyrx/5lD0oNcQ=="
+    },
+    "busboy": {
+      "file": "busboy-1.6.0.tgz",
+      "url": "https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz",
+      "sha256": "819382c071f2c537cc46c805e3cbb4d335aee8c430f81723a76f128cc8560828",
+      "version": "1.6.0",
+      "license": "MIT",
+      "integrity": "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA=="
+    },
+    "streamsearch": {
+      "file": "streamsearch-1.1.0.tgz",
+      "url": "https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz",
+      "sha256": "d914d0a943464622a932ee9602bf523bd4fe649dd443689057c0ade0be4aa9a8",
+      "version": "1.1.0",
+      "license": "MIT",
+      "integrity": "sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg=="
+    },
+    "pinyin-pro": {
+      "file": "pinyin-pro-3.29.4.tgz",
+      "url": "https://registry.npmjs.org/pinyin-pro/-/pinyin-pro-3.29.4.tgz",
+      "sha256": "433bc66ce6bcc23ff293b268a39452461e92987b9a13eefb7242cbe3103998cd",
+      "version": "3.29.4",
+      "license": "MIT",
+      "integrity": "sha512-SPXpDT2cHEy+d26V1RXYMlVzXN42hotFAak1fzyWPi4o2dKXb61UqD4pzxDJHwk6gbv8vQ6EfErd+hYX0Qhzug=="
+    },
+    "@napi-rs/canvas-darwin-x64": {
+      "file": "napi-rs-canvas-darwin-x64-1.0.9.tgz",
+      "url": "https://registry.npmjs.org/@napi-rs/canvas-darwin-x64/-/canvas-darwin-x64-1.0.9.tgz",
+      "integrity": "sha512-ceZQSknTEcy3dOXoekv59LTCkXjvnLsq+VW5PeNNDHEPQbRS5Ervkm1EaDa7WLAjiYWMLuSQTRTHao1dEX4prg==",
+      "version": "1.0.9",
+      "license": "MIT",
+      "sha256": "1a5de05040dfdc24998895b1d2d8b554e42a939a8021e7955cf37fe4deace800"
+    }
+  }
+}

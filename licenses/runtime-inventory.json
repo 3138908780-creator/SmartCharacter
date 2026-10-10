@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "scope": "three prepared component bundles; target execution status is separate in hardware acceptance table",
+  "components": [
+    {
+      "target": "darwin-arm64",
+      "component": "python",
+      "version": "3.12.15+20261003",
+      "source": "https://github.com/astral-sh/python-build-standalone/releases/download/20261003/cpython-3.12.15%2B20261003-aarch64-apple-darwin-install_only.tar.gz",
+      "license": "Python-2.0/CNRI and dependencies; included original notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.bdb.txt",
+          "sha256": "3bdff06e69991c94664f2ef5c5f8096f60b7dbec071756ea6cc26b445e06ec5b"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.bzip2.txt",
+          "sha256": "1f38bbc7caacafd65169276d759c0d88c991b753b643ce35d0e45ea1971dd441"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.cpython.txt",
+          "sha256": "86e61415828a8b5b06ec8d024e6f086ce155a8b85fd0c419c0ba4dc004e74fdd"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.expat.txt",
+          "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.libX11.txt",
+          "sha256": "2daec087a88e7c9b8082557cdeebad5bbb8155a4137472f0b22e269cd99d0c1e"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.libXau.txt",
+          "sha256": "56abe29bb1d9806a9e04fa9f80fed2c0f18027594df3f098148d814aef6bddfa"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.libedit.txt",
+          "sha256": "29cea33c32bbc9785142386377915612a2fa786482c46843383384aded2e09b1"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.libffi.txt",
+          "sha256": "deaf3a42effb551a5b140fa9afefed183a27f1341c6d1bf430d106a5e6931fc0"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.liblzma.txt",
+          "sha256": "9a4062de0a2c388a98cf35a35d348b62fa97c838a71c3c28ee1a2d7d0a565b02"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.libuuid.txt",
+          "sha256": "122ee1f7e258f2c3c0e538a75c037684f420454bf3850ddc74ce750bbf5fe86b"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.libxcb.txt",
+          "sha256": "c5ffbfeaa501071ceeb97b7de2c0d703fdaa35de01c0fb6cbac1c28453a3e9fd"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.mpdecimal.txt",
+          "sha256": "669512af7219f58be03a398766d7c9da11a3b3df9d3f05cb74c5ceca25c8da3b"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.ncurses.txt",
+          "sha256": "87a4c4442337b8968ef956031c406b74f9cb7149b7ba87311bdaba534816201c"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.openssl-1.1.txt",
+          "sha256": "9c04cce50c4989d5601dd8b07f6ab922c40388b66ac736c9007cb1ed9d9dd560"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.openssl-3.txt",
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.sqlite.txt",
+          "sha256": "38bef3d28b24f145ea293bd3b6eb4b20396982abc8303128fb493986ea5bc719"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.tcl.txt",
+          "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.tix.txt",
+          "sha256": "3ac5cdd0bef6c43ce34c6a7ced452081d9e5a0bf94082b9f9147d23ec9e214f5"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/python/licenses/python/LICENSE.zlib.txt",
+          "sha256": "818922b2620f12801a12bf78e399644a30990e66824abd8ca8ec24d451d6f92c"
+        }
+      ]
+    },
+    {
+      "target": "darwin-arm64",
+      "component": "pillow",
+      "version": "11.3.0",
+      "source": "https://files.pythonhosted.org/packages/2c/32/7e2ac19b5713657384cec55f89065fb306b06af008cfd87e572035b27119/pillow-11.3.0-cp312-cp312-macosx_11_0_arm64.whl",
+      "license": "wheel includes all dependency license notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-arm64/pillow/python/lib/python3.12/site-packages/pillow-11.3.0.dist-info/licenses/LICENSE",
+          "sha256": "2c40a7d8894126ff7a993a752505b915694aafe7a620889ef368acbf54b87144"
+        }
+      ]
+    },
+    {
+      "target": "darwin-arm64",
+      "component": "whisperModel",
+      "version": "base-q5_1@5359861c739e955e79d9a303bcbc70fb988958b1",
+      "source": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin",
+      "license": "MIT",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-arm64/whisperModel/licenses/whisper/model-MIT.txt",
+          "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+        }
+      ]
+    },
+    {
+      "target": "darwin-arm64",
+      "component": "ffmpeg",
+      "version": "9.0.2",
+      "source": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+      "license": "LGPL-2.1-or-later (GPL/nonfree/version3 disabled)",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-arm64/ffmpeg/licenses/ffmpeg/LGPL-2.1.txt",
+          "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+        },
+        {
+          "file": "licenses/runtime/darwin-arm64/ffmpeg/licenses/ffmpeg/LICENSE.md",
+          "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+        }
+      ]
+    },
+    {
+      "target": "darwin-arm64",
+      "component": "whisper",
+      "version": "1.9.5",
+      "source": "https://codeload.github.com/ggml-org/whisper.cpp/tar.gz/refs/tags/v1.9.5",
+      "license": "MIT",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-arm64/whisper/licenses/whisper/whisper-cpp-MIT.txt",
+          "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+        }
+      ]
+    },
+    {
+      "target": "darwin-arm64",
+      "component": "faceDetector",
+      "version": "d1f3073 packaging adapter",
+      "source": "SC project scripts/detect_faces.swift",
+      "license": "SC public source license 1.0",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-arm64/faceDetector/licenses/SC-local-candidate.txt",
+          "sha256": "784d86bed0128c86e9a583b56a10512ca4bf640acee5a9fdef20df8e5832f06f"
+        }
+      ]
+    },
+    {
+      "target": "darwin-arm64",
+      "component": "node",
+      "version": "24.14.0",
+      "source": "https://nodejs.org/download/release/v24.14.0/node-v24.14.0-darwin-arm64.tar.gz",
+      "license": "Node and bundled original LICENSE",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-arm64/node/LICENSE",
+          "sha256": "4573185d56580da2b890ba34a85a409257640f1c5632eade4300137266194d18"
+        }
+      ]
+    },
+    {
+      "target": "darwin-x64",
+      "component": "python",
+      "version": "3.12.15+20261003",
+      "source": "https://github.com/astral-sh/python-build-standalone/releases/download/20261003/cpython-3.12.15%2B20261003-x86_64-apple-darwin-install_only.tar.gz",
+      "license": "Python-2.0/CNRI and dependencies; included original notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.bdb.txt",
+          "sha256": "3bdff06e69991c94664f2ef5c5f8096f60b7dbec071756ea6cc26b445e06ec5b"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.bzip2.txt",
+          "sha256": "1f38bbc7caacafd65169276d759c0d88c991b753b643ce35d0e45ea1971dd441"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.cpython.txt",
+          "sha256": "86e61415828a8b5b06ec8d024e6f086ce155a8b85fd0c419c0ba4dc004e74fdd"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.expat.txt",
+          "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.libX11.txt",
+          "sha256": "2daec087a88e7c9b8082557cdeebad5bbb8155a4137472f0b22e269cd99d0c1e"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.libXau.txt",
+          "sha256": "56abe29bb1d9806a9e04fa9f80fed2c0f18027594df3f098148d814aef6bddfa"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.libedit.txt",
+          "sha256": "29cea33c32bbc9785142386377915612a2fa786482c46843383384aded2e09b1"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.libffi.txt",
+          "sha256": "deaf3a42effb551a5b140fa9afefed183a27f1341c6d1bf430d106a5e6931fc0"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.liblzma.txt",
+          "sha256": "9a4062de0a2c388a98cf35a35d348b62fa97c838a71c3c28ee1a2d7d0a565b02"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.libuuid.txt",
+          "sha256": "122ee1f7e258f2c3c0e538a75c037684f420454bf3850ddc74ce750bbf5fe86b"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.libxcb.txt",
+          "sha256": "c5ffbfeaa501071ceeb97b7de2c0d703fdaa35de01c0fb6cbac1c28453a3e9fd"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.mpdecimal.txt",
+          "sha256": "669512af7219f58be03a398766d7c9da11a3b3df9d3f05cb74c5ceca25c8da3b"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.ncurses.txt",
+          "sha256": "87a4c4442337b8968ef956031c406b74f9cb7149b7ba87311bdaba534816201c"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.openssl-1.1.txt",
+          "sha256": "9c04cce50c4989d5601dd8b07f6ab922c40388b66ac736c9007cb1ed9d9dd560"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.openssl-3.txt",
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.sqlite.txt",
+          "sha256": "38bef3d28b24f145ea293bd3b6eb4b20396982abc8303128fb493986ea5bc719"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.tcl.txt",
+          "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.tix.txt",
+          "sha256": "3ac5cdd0bef6c43ce34c6a7ced452081d9e5a0bf94082b9f9147d23ec9e214f5"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/python/licenses/python/LICENSE.zlib.txt",
+          "sha256": "818922b2620f12801a12bf78e399644a30990e66824abd8ca8ec24d451d6f92c"
+        }
+      ]
+    },
+    {
+      "target": "darwin-x64",
+      "component": "pillow",
+      "version": "11.3.0",
+      "source": "https://files.pythonhosted.org/packages/40/fe/1bc9b3ee13f68487a99ac9529968035cca2f0a51ec36892060edcc51d06a/pillow-11.3.0-cp312-cp312-macosx_10_13_x86_64.whl",
+      "license": "wheel includes all dependency license notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-x64/pillow/python/lib/python3.12/site-packages/pillow-11.3.0.dist-info/licenses/LICENSE",
+          "sha256": "2c40a7d8894126ff7a993a752505b915694aafe7a620889ef368acbf54b87144"
+        }
+      ]
+    },
+    {
+      "target": "darwin-x64",
+      "component": "whisperModel",
+      "version": "base-q5_1@5359861c739e955e79d9a303bcbc70fb988958b1",
+      "source": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin",
+      "license": "MIT",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-x64/whisperModel/licenses/whisper/model-MIT.txt",
+          "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+        }
+      ]
+    },
+    {
+      "target": "darwin-x64",
+      "component": "ffmpeg",
+      "version": "9.0.2",
+      "source": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+      "license": "LGPL-2.1-or-later (GPL/nonfree/version3 disabled)",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-x64/ffmpeg/licenses/ffmpeg/LGPL-2.1.txt",
+          "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+        },
+        {
+          "file": "licenses/runtime/darwin-x64/ffmpeg/licenses/ffmpeg/LICENSE.md",
+          "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+        }
+      ]
+    },
+    {
+      "target": "darwin-x64",
+      "component": "whisper",
+      "version": "1.9.5",
+      "source": "https://codeload.github.com/ggml-org/whisper.cpp/tar.gz/refs/tags/v1.9.5",
+      "license": "MIT",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-x64/whisper/licenses/whisper/whisper-cpp-MIT.txt",
+          "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+        }
+      ]
+    },
+    {
+      "target": "darwin-x64",
+      "component": "faceDetector",
+      "version": "d1f3073 packaging adapter",
+      "source": "SC project scripts/detect_faces.swift",
+      "license": "SC public source license 1.0",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-x64/faceDetector/licenses/SC-local-candidate.txt",
+          "sha256": "784d86bed0128c86e9a583b56a10512ca4bf640acee5a9fdef20df8e5832f06f"
+        }
+      ]
+    },
+    {
+      "target": "darwin-x64",
+      "component": "node",
+      "version": "24.14.0",
+      "source": "https://nodejs.org/download/release/v24.14.0/node-v24.14.0-darwin-x64.tar.gz",
+      "license": "Node and bundled original LICENSE",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/darwin-x64/node/LICENSE",
+          "sha256": "4573185d56580da2b890ba34a85a409257640f1c5632eade4300137266194d18"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "python",
+      "version": "3.12.15+20261003",
+      "source": "https://github.com/astral-sh/python-build-standalone/releases/download/20261003/cpython-3.12.15%2B20261003-x86_64-pc-windows-msvc-install_only.tar.gz",
+      "license": "Python-2.0/CNRI and dependencies; included original notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.bdb.txt",
+          "sha256": "8f2d533ab34899499d5b07f209854b101b17dba2c69f3251860aecf3e4005faa"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.bzip2.txt",
+          "sha256": "bd5628cc76fb0ebf9c657d1dd4d1a240a1a7b216c31663e7bbf1131c0b70a910"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.cpython.txt",
+          "sha256": "8fe98bf9822926d854f56ffd8d97877d8b942617aa44eb7ea77fd99e22f2537e"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.expat.txt",
+          "sha256": "8a9cfe4b5924f4b25881aa0c9f5e4561c5f31065d0c4a13cdcdbcf917edf39aa"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.libX11.txt",
+          "sha256": "f353accfe2976df31ea297a77d1d454bd51ef6be8c3df39bd6aca95901579357"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.libXau.txt",
+          "sha256": "cec808cd2163fccdc8de4a91d526490777afbaeea060e1168c40a804694b7444"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.libedit.txt",
+          "sha256": "d9932ccdd42eccf6cdded7bcb35b088e64cfc7c24d355af2cc0d02edb6b637d3"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.libffi.txt",
+          "sha256": "9afb8970cd29fc1031fa647278e4bef613399e2e3468a1e3a397f4d158c6101c"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.liblzma.txt",
+          "sha256": "d87d218dd908b3243ec4cbc72af400e5b7437513ea9d9229291d0812b8464fec"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.libuuid.txt",
+          "sha256": "cbccaa3efe07a9a602751375085be572d4410a250b996716fbe8c5255c7ec6f2"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.libxcb.txt",
+          "sha256": "29a9539190e6de1af5fd06a9139c7103137cd1f9290b08c7b11bce89c01c14d2"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.mpdecimal.txt",
+          "sha256": "f094277cd46e1f6e4d87916cc4b51e22f613d45eb81f48231c3cb7caf8fc8a6a"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.ncurses.txt",
+          "sha256": "4f571cad3ea6c888bf0a7092e5b215dddb3142e9e3f1857fd5fac6cf13d345d7"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.openssl-1.1.txt",
+          "sha256": "ad89e3fed746413af1d34d5353978ee1520cedd361c853f8022e7bb210ac6b31"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.openssl-3.txt",
+          "sha256": "ed72ce2b51ee58f117e5a021e2e04af158857f40269fbc03491f0b2a99dbcc96"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.sqlite.txt",
+          "sha256": "d8eb9aba7ef6b5ed06cb3ec19a7242316af2e5933c638eb67fb781c13884e01d"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.tcl.txt",
+          "sha256": "41613eabfc08921a7da9c4bfd7f3ce5d5406f55214b253d89f392ed86eebeb8f"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.tix.txt",
+          "sha256": "8cdff3addb9e9eb108c78e2cf5e05f26b216c098304945733bbec382b2eaef66"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/python/licenses/python/LICENSE.zlib.txt",
+          "sha256": "365e36720db366054863235aea5d6f440142ab968834bfaf81fa9d187c99b9b8"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "pillow",
+      "version": "11.3.0",
+      "source": "https://files.pythonhosted.org/packages/8c/ce/e7dfc873bdd9828f3b6e5c2bbb74e47a98ec23cc5c74fc4e54462f0d9204/pillow-11.3.0-cp312-cp312-win_amd64.whl",
+      "license": "wheel includes all dependency license notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/pillow/python/Lib/site-packages/pillow-11.3.0.dist-info/licenses/LICENSE",
+          "sha256": "19544bf53af689a3319a4fb5067370f0f0d68d2c5300a2157674f5ef8a4fd965"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "numpy",
+      "version": "2.2.6",
+      "source": "https://files.pythonhosted.org/packages/36/fa/8c9210162ca1b88529ab76b41ba02d433fd54fecaf6feb70ef9f124683f1/numpy-2.2.6-cp312-cp312-win_amd64.whl",
+      "license": "wheel includes all dependency license notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/numpy/python/Lib/site-packages/numpy-2.2.6.dist-info/LICENSE.txt",
+          "sha256": "14256cc3a2c9d32ac284da96b937feb44f72dd90bee2317ac3020166846ad99d"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "opencv",
+      "version": "4.13.0.92",
+      "source": "https://files.pythonhosted.org/packages/4a/90/b338326131ccb2aaa3c2c85d00f41822c0050139a4bfe723cfd95455bd2d/opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "license": "wheel includes all dependency license notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/opencv/python/Lib/site-packages/opencv_python_headless-4.13.0.92.dist-info/LICENSE-3RD-PARTY.txt",
+          "sha256": "55bf7d4a1de21d130a39ca38824eb61ba061edbf8449838634246bde30fde403"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/opencv/python/Lib/site-packages/opencv_python_headless-4.13.0.92.dist-info/LICENSE.txt",
+          "sha256": "edef0fac1eb08d29d34563f724742e078da2513e196133a12c6ad9ff01e26107"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "whisperModel",
+      "version": "base-q5_1@5359861c739e955e79d9a303bcbc70fb988958b1",
+      "source": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin",
+      "license": "MIT",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/whisperModel/licenses/whisper/model-MIT.txt",
+          "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "yunetModel",
+      "version": "2023mar",
+      "source": "https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx",
+      "license": "MIT",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/yunetModel/licenses/yunet/MIT.txt",
+          "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "ffmpeg",
+      "version": "9.0.2",
+      "source": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+      "license": "LGPL-2.1-or-later; GPL/nonfree/version3 disabled",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/ffmpeg/licenses/ffmpeg/LGPL-2.1.txt",
+          "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/ffmpeg/licenses/ffmpeg/LICENSE.md",
+          "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "ffmpegToolchain",
+      "version": "Zig 0.15.2 bundled MinGW/compiler runtime",
+      "source": "https://ziglang.org/download/0.15.2/zig-aarch64-macos-0.15.2.tar.xz",
+      "license": "Included original notices",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/ffmpegToolchain/licenses/ffmpeg-toolchain/LLVM-libcxx-LICENSE.txt",
+          "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/ffmpegToolchain/licenses/ffmpeg-toolchain/LLVM-libcxxabi-LICENSE.txt",
+          "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/ffmpegToolchain/licenses/ffmpeg-toolchain/LLVM-libunwind-LICENSE.txt",
+          "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/ffmpegToolchain/licenses/ffmpeg-toolchain/MinGW-COPYING.txt",
+          "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+        },
+        {
+          "file": "licenses/runtime/win32-x64/ffmpegToolchain/licenses/ffmpeg-toolchain/Zig-MIT.txt",
+          "sha256": "5c537d6853e005298a285d508cff9ac7192cea23576c840d485b2b586a7ff177"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "whisper",
+      "version": "1.9.5 / d1be6fd / static CPU",
+      "source": "https://codeload.github.com/ggml-org/whisper.cpp/tar.gz/refs/tags/v1.9.5",
+      "license": "MIT",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/whisper/licenses/whisper/whisper-cpp-MIT.txt",
+          "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "microsoftRuntime",
+      "version": "DLLs bundled in fixed Python/NumPy distributions",
+      "source": "Python-build-standalone and NumPy Windows wheel as pinned",
+      "license": "Microsoft Visual C++ 2015-2022 Runtime terms",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/microsoftRuntime/licenses/microsoft/VC-Runtime-2015-2022-License.txt",
+          "sha256": "ed875263593823eb4b685cd543eda0ab075a6f57a76f7718908f2237466c442f"
+        }
+      ]
+    },
+    {
+      "target": "win32-x64",
+      "component": "node",
+      "version": "24.14.0",
+      "source": "https://nodejs.org/download/release/v24.14.0/node-v24.14.0-win-x64.zip",
+      "license": "Node and bundled original LICENSE",
+      "notice_files": [
+        {
+          "file": "licenses/runtime/win32-x64/node/LICENSE",
+          "sha256": "8efdacdc1cfa3460aeb7fe98e3c54337b971d5da70e6eee292b73b981acb220c"
+        }
+      ]
+    }
+  ]
+}

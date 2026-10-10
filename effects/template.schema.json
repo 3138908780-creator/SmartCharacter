@@ -1,0 +1,404 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smart-character.local/effects/template.schema.json",
+  "title": "Smart Character combination template library",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "templates"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "templates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description",
+          "compatibility",
+          "defaults",
+          "editable",
+          "font",
+          "container",
+          "layout",
+          "normal",
+          "focus",
+          "decoration"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "compatibility": {
+            "type": "object",
+            "required": [
+              "minKeywords",
+              "maxKeywords"
+            ],
+            "properties": {
+              "minKeywords": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "maxKeywords": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "maxKeywordLength": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "minKeywordLength": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "keywordPosition": {
+                "enum": [
+                  "start",
+                  "end"
+                ]
+              },
+              "contentRule": {
+                "enum": [
+                  "question",
+                  "equal-width",
+                  "numeric-pair"
+                ]
+              },
+              "bodyLongerThanKeyword": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": false
+          },
+          "defaults": {
+            "type": "object",
+            "required": [
+              "accentColor"
+            ],
+            "properties": {
+              "accentColor": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "secondaryAccentColor": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "position": {
+                "type": "object",
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "editable": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "position",
+                "scale",
+                "accentColor"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "font": {
+            "type": "object",
+            "required": [
+              "family"
+            ],
+            "properties": {
+              "family": {
+                "enum": [
+                  "SC Source Han Sans",
+                  "SC Source Han Sans Bold",
+                  "SC Source Han Serif",
+                  "SC Source Han Serif Bold",
+                  "SC Douyin Sans",
+                  "SC Source Han Serif Heavy",
+                  "SC Smiley Sans"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "container": {
+            "type": "object"
+          },
+          "layout": {
+            "type": "object",
+            "required": [
+              "type",
+              "gap"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "inline",
+                  "stack",
+                  "mirror",
+                  "takeover",
+                  "split",
+                  "keyword-rail",
+                  "fold-takeover",
+                  "surround",
+                  "opposed",
+                  "cascade",
+                  "bilateral-center",
+                  "progressive-stack",
+                  "backdrop-overlay",
+                  "two-line",
+                  "question-split",
+                  "flank-center",
+                  "echo-focus",
+                  "tagged-stack",
+                  "keyword-backboard",
+                  "split-keyword",
+                  "keyword-overlay",
+                  "headline-lead"
+                ]
+              },
+              "gap": {
+                "type": "number",
+                "minimum": 0
+              },
+              "primaryCharacters": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "secondaryScale": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 1
+              },
+              "lastFocusScale": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "echoScale": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "lineOrder": {
+                "enum": [
+                  "normal-focus",
+                  "focus-normal"
+                ]
+              },
+              "align": {
+                "enum": [
+                  "left",
+                  "center"
+                ]
+              },
+              "slots": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "x",
+                    "y"
+                  ],
+                  "properties": {
+                    "x": {
+                      "type": "number"
+                    },
+                    "y": {
+                      "type": "number"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "normal": {
+            "type": "object"
+          },
+          "focus": {
+            "type": "object"
+          },
+          "decoration": {
+            "type": "object",
+            "required": [
+              "type"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "none",
+                  "underline",
+                  "punctuation"
+                ]
+              },
+              "text": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number",
+                "minimum": 1
+              }
+            }
+          },
+          "choreography": {
+            "enum": [
+              "roll-overlay",
+              "tail-gradient",
+              "question-diagonal",
+              "drop-push",
+              "type-vault",
+              "ice-split",
+              "number-inhale"
+            ]
+          },
+          "recommendation": {
+            "type": "object",
+            "properties": {
+              "baseScore": {
+                "type": "number"
+              },
+              "minSentenceLength": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "evenSentenceLength": {
+                "type": "boolean"
+              },
+              "preferredPositions": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "start",
+                    "middle",
+                    "end"
+                  ]
+                }
+              },
+              "avoidedPositions": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "start",
+                    "middle",
+                    "end"
+                  ]
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "study": {
+            "type": "object",
+            "required": [
+              "kind",
+              "source",
+              "position",
+              "length",
+              "sentence",
+              "preference",
+              "example",
+              "sounds",
+              "acceptedOn"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "tail-corner",
+                  "tail-corner-question",
+                  "opening-gap",
+                  "opening-gap-reverse",
+                  "bilingual-plates",
+                  "blur-stack",
+                  "growing-pair",
+                  "tail-replace",
+                  "fold-pair",
+                  "roll-banner",
+                  "roll-banner-reverse"
+                ]
+              },
+              "source": {
+                "type": "string"
+              },
+              "position": {
+                "type": "string"
+              },
+              "length": {
+                "type": "string"
+              },
+              "sentence": {
+                "type": "string"
+              },
+              "preference": {
+                "type": "string"
+              },
+              "acceptedOn": {
+                "type": "string"
+              },
+              "example": {
+                "type": "object",
+                "required": [
+                  "text",
+                  "keywords"
+                ],
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "keywords": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "english": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "sounds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

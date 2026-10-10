@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>SmartCharacter</title>
+  <desc>SC lettermark drawn from geometric paths for SmartCharacter.</desc>
+  <rect width="64" height="64" rx="14" fill="#14283F"/>
+  <path d="M27 20H19C15 20 12 23 12 27C12 31 15 34 19 34H22C26 34 29 37 29 41C29 45 26 48 22 48H12" stroke="#F4F8FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M52 23C49 20 43 19 39 23C35 27 35 41 39 45C43 49 49 48 52 45" stroke="#71D4FF" stroke-width="5" stroke-linecap="round"/>
+</svg>

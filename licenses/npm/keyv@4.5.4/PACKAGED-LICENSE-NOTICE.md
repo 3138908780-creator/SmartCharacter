@@ -1,0 +1,3 @@
+## License
+
+MIT © Jared Wray

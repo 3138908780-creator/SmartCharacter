@@ -1,0 +1,41 @@
+{
+  "baseStyle": {
+    "font": "SC Source Han Sans",
+    "size": 68,
+    "color": "#ffffff",
+    "stroke": "strong",
+    "shadow": "soft",
+    "animation": "rise",
+    "background": "solid",
+    "backgroundColor": "#181916",
+    "backgroundOpacity": 66
+  },
+  "basePosition": { "x": 50, "y": 78 },
+  "cues": [
+    {
+      "id": "base",
+      "start": 0,
+      "end": 1,
+      "text": "共享渲染基础字幕",
+      "highlights": []
+    },
+    {
+      "id": "center",
+      "start": 1,
+      "end": 2.5,
+      "text": "普通字幕被重点词切开",
+      "highlights": [{ "id": "center-focus", "start": 5, "end": 8 }],
+      "wordTimings": [{ "start": 5, "end": 8, "startTime": 1.55, "endTime": 1.95 }],
+      "combo": { "id": "center-cut", "position": { "x": 50, "y": 48 }, "scale": 1, "accentColor": "#eaff58" }
+    },
+    {
+      "id": "flip",
+      "start": 2.5,
+      "end": 4,
+      "text": "现在验证中间切入",
+      "highlights": [{ "id": "flip-focus", "start": 4, "end": 8 }],
+      "wordTimings": [{ "start": 4, "end": 8, "startTime": 3.05, "endTime": 3.45 }],
+      "combo": { "id": "center-cut", "position": { "x": 50, "y": 48 }, "scale": 1, "accentColor": "#eaff58" }
+    }
+  ]
+}

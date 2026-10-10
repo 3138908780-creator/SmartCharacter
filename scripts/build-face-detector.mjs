@@ -1,0 +1,16 @@
+import { spawnSync } from "node:child_process";
+import { mkdir, writeFile, readFile, rm } from "node:fs/promises";
+import { resolve, dirname, isAbsolute } from "node:path";
+import { resourceSha256 } from "./verify-runtime-resources.mjs";
+if(process.platform!=="darwin")throw new Error("Vision 构建只在 macOS 执行");
+const compiler=process.env.SC_SWIFTC_PATH,output=process.argv[2];
+const target = process.argv[3] ?? `darwin-${process.arch}`;
+if (!["darwin-arm64", "darwin-x64"].includes(target)) throw new Error("无效的 Vision 目标架构");
+if(!compiler||!isAbsolute(compiler)||!output||!isAbsolute(output))throw new Error("须明确设置 SC_SWIFTC_PATH 和绝对输出路径");
+const source=resolve(import.meta.dirname,"detect_faces.swift");
+await mkdir(dirname(output),{recursive:true});
+const moduleCache=resolve(dirname(output),"swift-module-cache");await mkdir(moduleCache,{recursive:true});
+const compiledSource=`${output}.swift`;const code=(await readFile(source,"utf8")).replace('let faces: [Face]','let faces: [Face]\n    let error: String?').replaceAll('FrameDetection(file: url.lastPathComponent, faces: [])','FrameDetection(file: url.lastPathComponent, faces: [], error: "Vision frame detection failed")').replace('FrameDetection(file: url.lastPathComponent, faces: faces)','FrameDetection(file: url.lastPathComponent, faces: faces, error: nil)');
+await writeFile(compiledSource,code);const build=spawnSync(compiler,[compiledSource,"-module-cache-path",moduleCache,"-target",`${target === "darwin-arm64" ? "arm64" : "x86_64"}-apple-macos14.0`,"-O","-o",output],{encoding:"utf8"});await rm(compiledSource,{force:true});if(build.status!==0)throw new Error(build.stderr||"Vision 构建失败");
+const result={target,path:output,sourceSha256:await resourceSha256(source),sha256:await resourceSha256(output),compiler:spawnSync(compiler,["--version"],{encoding:"utf8"}).stdout.trim(),builtAt:new Date().toISOString()};
+await writeFile(`${output}.build.json`,JSON.stringify(result,null,2));console.log(JSON.stringify(result));

@@ -1,0 +1,44 @@
+{
+  "name": "smart-character-local-web",
+  "version": "0.1.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-local-web.mjs",
+    "start": "node scripts/start-local-web.mjs",
+    "typecheck": "tsc --noEmit --incremental false",
+    "test": "node --test tests/local-web-*.test.mjs tests/ai-*.test.mjs tests/editor-release.test.mjs tests/six-cards.test.mjs tests/editor-service.test.mjs",
+    "check:components": "node scripts/check-local-components.mjs",
+    "install:local": "node scripts/install-local-web.mjs",
+    "assemble:local": "node scripts/assemble-local-web.mjs delivery"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "busboy": "^1.6.0",
+    "pinyin-pro": "3.29.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.4",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "esbuild": "0.28.2",
+    "eslint": "9.39.4",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "16.4.0",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.59.3",
+    "vite": "8.0.13"
+  },
+  "type": "module"
+}
