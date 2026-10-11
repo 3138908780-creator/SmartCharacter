@@ -224,12 +224,6 @@
       "sha256": "ffdcb1b061be6536e463622320cef5269f0735b3a29ad5c0306719816c2ba7c9",
       "origin": "GPT-generated background commissioned by project owner, confirmed 2026-10-09",
       "license": "SC root LICENSE to the extent of rights held by project owner"
-    },
-    {
-      "file": "tests/fixtures/desktop-package-gray-sine.mp4",
-      "sha256": "b3e2a2b8560448d69b6cd5a0647ec559ffb54ce2ca504d2781849a6fcc7b3ef7",
-      "origin": "synthetic gray video and sine tone, no original private media",
-      "license": "SC root LICENSE to the extent applicable"
     }
   ]
 }

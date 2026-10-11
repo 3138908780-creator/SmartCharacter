@@ -10,7 +10,6 @@
     "build": "node scripts/build-local-web.mjs",
     "start": "node scripts/start-local-web.mjs",
     "typecheck": "tsc --noEmit --incremental false",
-    "test": "node --test tests/local-web-*.test.mjs tests/ai-*.test.mjs tests/editor-release.test.mjs tests/six-cards.test.mjs tests/editor-service.test.mjs",
     "check:components": "node scripts/check-local-components.mjs",
     "install:local": "node scripts/install-local-web.mjs",
     "assemble:local": "node scripts/assemble-local-web.mjs delivery"

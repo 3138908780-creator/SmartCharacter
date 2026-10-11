@@ -7,7 +7,6 @@
 | `public/favicon.svg` | 为 SC 新绘制的几何 S、C 路径；未使用外部图标或字库 | 根目录 SC [LICENSE](LICENSE)，限项目权利人可授权的部分 |
 | `public/content-demo/blackboard.png` | 项目权利人确认：由自己要求 GPT 生成的深色纹理背景 | 随项目按 SC LICENSE 提供其有权授权的部分；不主张 AI 输出天然具有独占版权 |
 | `public/fonts/` 中 13 个字体文件 | 各字体原权利人及上游项目，原文件保持 | 原 OFL 1.1；见 [版权索引](public/fonts/licenses/README.md)，SC 的限制不替代字体原许可 |
-| `tests/fixtures/desktop-package-gray-sine.mp4` | 合成灰色视频和正弦音测试夹具 | 测试用自有合成素材，适用 SC LICENSE 的范围以权利人可授权部分为限；不含真实口播、人物或私有视频 |
 | SC 自有模板配方和演示文案 | 项目中的程序配方与中性示例 | 根目录 SC LICENSE；允许用户将内置效果用于正常的视频和字幕输出 |
 | 音效目录名称与分类记录 | 当前 JSON 仅存文字标签、分类和说明 | 本候选没有相应第三方音频；标签不授予音频使用或分发权 |
 
