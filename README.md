@@ -2,13 +2,11 @@
 
 ### 不用 AE，不用手 K，给口播视频一键制作精美字幕包装。
 
-导入字幕和粗剪视频，即可生成重点词动效，再按自己的风格调整。不必为字幕包装反复搭建画中画、蒙版和复杂动效工程。
-
-SC 把常用的包装效果放进编辑台，让你把时间花在内容和审美上。
+导入粗剪视频和字幕，即可在 SC 编辑台生成重点词动效，并按自己的风格调整。SC 一键生成字幕精包装，减少反复搭建画中画、蒙版和复杂动效工程的操作，让你把更多时间和精力留给内容与审美。
 
 **45 款重点词效果 · 6 款段落卡片 · AI 可选 · 基础版免费**
 
-**[下载安装包](https://github.com/3138908780-creator/SmartCharacter/releases)** · [功能介绍](#功能介绍) · [完整制作流程](#完整制作流程) · [常见问题](#常见问题) · [关于作者](#关于作者)
+**[下载安装包](https://github.com/SupePotato/SmartCharacter/releases/latest)** · **[安装与使用手册](#安装与使用手册)** · [功能介绍](#功能介绍) · [完整制作流程](#完整制作流程) · [常见问题](#常见问题) · [关于作者](#关于作者)
 
 ![SC 编辑台：数字人素材与字幕包装预览](assets/sc-editor-rebecca-v1.png)
 
@@ -28,9 +26,9 @@ SC 把常用的包装效果放进编辑台，让你把时间花在内容和审�
 | **手动编辑与预览** | 修改文字、替换效果，并按各效果提供的参数调整位置、大小、颜色、字体、动画和时间。 |
 | **透明字幕层导出** | 导出 ProRes 4444 透明 MOV，叠加到原视频上，继续完成剪辑。 |
 
-### 先选效果，再调整成你的风格
+### 浏览效果，在编辑台完成调整
 
-在动画演示台中预览不同效果，找到适合这期视频的风格。进入编辑台后，还可以继续换效果、改颜色、调整位置和大小，边改边预览。
+动画演示台用于查看库内所有效果，帮助你了解不同包装的视觉呈现。导入素材后，效果的选择与调整在编辑台中完成。
 
 **自动生成只是起点，最终呈现由你掌握。**
 
@@ -66,13 +64,13 @@ SC 把常用的包装效果放进编辑台，让你把时间花在内容和审�
 
 不需要自己安装 Node.js、Python，也不需要使用 AI 帮你配置环境。**完整安装包已经包含运行所需的组件。**
 
-打开 **[Releases 下载页面](https://github.com/3138908780-creator/SmartCharacter/releases)**，在 **Assets（附件）** 中选择：
+打开 **[Releases 下载页面](https://github.com/SupePotato/SmartCharacter/releases/latest)**，在 **Assets（附件）** 中选择：
 
 | 你的电脑 | 对应安装包 |
 |---|---|
-| **Windows 64 位电脑** | `SC-Windows-20261010.zip` |
-| **Intel 芯片 Mac** | `SC-Mac-Intel-20261010.zip` |
-| **Apple 芯片 Mac，包括 M 系列** | `SC-Mac-AppleSilicon-20261010.zip` |
+| **Windows 64 位电脑** | `SC-Windows.zip` |
+| **Intel 芯片 Mac** | `SC-Mac-Intel.zip` |
+| **Apple 芯片 Mac，包括 M 系列** | `SC-Mac-AppleSilicon.zip` |
 
 ```text
 下载对应的 ZIP
@@ -95,6 +93,18 @@ SC 把常用的包装效果放进编辑台，让你把时间花在内容和审�
 > 以后使用时，直接点击“启动 SmartCharacter”，无需重复安装。使用期间请保持启动窗口运行。
 >
 > 安装、安全打开和故障处理的详细步骤见 **[本地启动说明](本地启动说明.md)**。
+
+### 安装与使用手册
+
+按电脑类型下载对应的 PDF 手册，查看完整解压、首次安装、启动、基础使用、导出文件夹路径和常见问题。
+
+| 你的电脑 | 使用手册 |
+|---|---|
+| Windows x64 | [下载 PDF 手册](https://github.com/SupePotato/SmartCharacter/releases/download/untagged-c096b0550267ce178761/SC-Windows-Manual.pdf) |
+| Apple 芯片 Mac | [下载 PDF 手册](https://github.com/SupePotato/SmartCharacter/releases/download/untagged-c096b0550267ce178761/SC-Mac-AppleSilicon-Manual.pdf) |
+| Intel 芯片 Mac | [下载 PDF 手册](https://github.com/SupePotato/SmartCharacter/releases/download/untagged-c096b0550267ce178761/SC-Mac-Intel-Manual.pdf) |
+
+三份手册均放在当前 **SC 基础版的 Releases 附件**中，与三个 ZIP 安装包位于同一下载页。
 
 ### 自行构建：获取源码
 
